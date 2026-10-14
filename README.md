@@ -2,6 +2,9 @@
 
 根据手绘道路布局制作的 Blender 道路模型，现提供首版 BeamNG.drive 测试导入包。
 
+- [Blender 与 BeamNG 工作流程记录](docs/BLENDER_BEAMNG_WORKFLOW.md)
+- [中国科目二新项目目录](output/china_subject2/README.md)
+
 **当前状态：已完成离线文件与几何检查，尚未在 BeamNG 内加载或驾驶验证。**
 
 ## 下载
