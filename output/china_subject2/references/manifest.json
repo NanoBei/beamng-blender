@@ -1,0 +1,134 @@
+[
+  {
+    "label": "倒车入库尺寸图",
+    "url": "https://img2020.cnblogs.com/blog/1489774/202111/1489774-20211104212330026-1099190773.jpg",
+    "document": "C1_subject2_reference_dimensions.md",
+    "path": "references/images/01.png",
+    "bytes": 8077,
+    "sha256": "d855c86919a166cb1bdf43ea694766d36f35342b5144a006784809dc1db4ff3d",
+    "server_content_type": "image/jpeg",
+    "actual_format": "png",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "侧方停车尺寸图",
+    "url": "https://img2020.cnblogs.com/blog/1489774/202111/1489774-20211104212338200-170420015.jpg",
+    "document": "C1_subject2_reference_dimensions.md",
+    "path": "references/images/02.png",
+    "bytes": 6578,
+    "sha256": "fb2603cf2d6da9dc68ff1364215e6104aa2ab2cad95e4fc92931b69a0a021dc1",
+    "server_content_type": "image/jpeg",
+    "actual_format": "png",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "坡道尺寸图",
+    "url": "https://img2020.cnblogs.com/blog/1489774/202111/1489774-20211104212346421-178637331.jpg",
+    "document": "C1_subject2_reference_dimensions.md",
+    "path": "references/images/03.png",
+    "bytes": 31581,
+    "sha256": "33b861083cd2accad6a99d72f6ec953150c05e26624a38ec44850f3a85563940",
+    "server_content_type": "image/jpeg",
+    "actual_format": "png",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "曲线行驶尺寸图",
+    "url": "https://img2020.cnblogs.com/blog/1489774/202111/1489774-20211104212353405-358781318.jpg",
+    "document": "C1_subject2_reference_dimensions.md",
+    "path": "references/images/04.png",
+    "bytes": 32420,
+    "sha256": "9613c290357de97a31fc3cd1650489e8ea7c4e65ac48db5e50596f239b6ff81c",
+    "server_content_type": "image/jpeg",
+    "actual_format": "png",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "直角转弯尺寸图",
+    "url": "https://img2020.cnblogs.com/blog/1489774/202111/1489774-20211104212400739-1542933083.jpg",
+    "document": "C1_subject2_reference_dimensions.md",
+    "path": "references/images/05.png",
+    "bytes": 7044,
+    "sha256": "28606c6cb3fbf725baa5371535f5761735434ae954f8d9206b4156eabecf29b0",
+    "server_content_type": "image/jpeg",
+    "actual_format": "png",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "倒车入库实景俯视",
+    "url": "https://img2023.cnblogs.com/blog/740516/202304/740516-20230425223345881-1270667782.png",
+    "document": "subject2_realworld_references.md",
+    "path": "references/images/06.png",
+    "bytes": 2089294,
+    "sha256": "1e4e4367c2207c2f1572a21588ae8729800311a37d7db36b132347e7e29a9347",
+    "server_content_type": "image/png",
+    "actual_format": "png",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "侧方停车实景俯视",
+    "url": "https://img2023.cnblogs.com/blog/740516/202304/740516-20230425222156158-1326121962.png",
+    "document": "subject2_realworld_references.md",
+    "path": "references/images/07.png",
+    "bytes": 1961330,
+    "sha256": "f360661a403038713005e58a4d19f73bf21352a65d98fcd62210d4b94912dcff",
+    "server_content_type": "image/png",
+    "actual_format": "png",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "曲线行驶实景俯视",
+    "url": "https://img2023.cnblogs.com/blog/740516/202304/740516-20230425223701209-1404435707.png",
+    "document": "subject2_realworld_references.md",
+    "path": "references/images/08.png",
+    "bytes": 2345785,
+    "sha256": "3f9a5e0a554d53885a37350acd80326678932c10f1c1e1fd845c79f481693b0f",
+    "server_content_type": "image/png",
+    "actual_format": "png",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "直角转弯实景俯视",
+    "url": "https://img2023.cnblogs.com/blog/740516/202304/740516-20230425215713653-1219609741.png",
+    "document": "subject2_realworld_references.md",
+    "path": "references/images/09.png",
+    "bytes": 1603061,
+    "sha256": "432028b754f957897926c2ca5a77f40c58d1f338a9a03937e1d7dbe83869fb79",
+    "server_content_type": "image/png",
+    "actual_format": "png",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "坡道停车位置实拍俯视",
+    "url": "https://www.hmxueche.com/u/1044/1001-16d913149f950ecc75505c5b2bad30b7.png",
+    "document": "subject2_realworld_references.md",
+    "path": "references/images/10.jpg",
+    "bytes": 29527,
+    "sha256": "05cd2939f70050a79b7d0b1877d4a83723d2f000508d3e622d6404fa187e439f",
+    "server_content_type": "image/png",
+    "actual_format": "jpg",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "黄色边线曲线行驶实拍俯视",
+    "url": "https://nimg.mnks.cn/yxlimg/da949b5b.jpg",
+    "document": "subject2_realworld_references.md",
+    "path": "references/images/11.jpg",
+    "bytes": 32201,
+    "sha256": "a18624ede9127e6b46413f7fc8773f7c43ff2c59830a52f8df08417149a85820",
+    "server_content_type": "image/jpeg",
+    "actual_format": "jpg",
+    "use": "visual reference only; not a texture"
+  },
+  {
+    "label": "黄色边线直角转弯实拍俯视",
+    "url": "https://nimg.mnks.cn/yxlimg/0aafa68b.jpg",
+    "document": "subject2_realworld_references.md",
+    "path": "references/images/12.jpg",
+    "bytes": 88098,
+    "sha256": "ddb5ff773fb3b1b7f9ce2f4325919578e87f578cadabd42d2a220afb30629c7c",
+    "server_content_type": "image/jpeg",
+    "actual_format": "jpg",
+    "use": "visual reference only; not a texture"
+  }
+]

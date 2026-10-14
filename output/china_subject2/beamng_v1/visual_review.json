@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-14",
+  "method": "最终 DAE 和 BeamNG 材质 JSON 读回 Blender，逐张查看 Cycles 渲染",
+  "beamng_screenshot": false,
+  "reviewed_count": 3,
+  "views": [
+    {
+      "file": "previews/01_game_assets_overview.png",
+      "reviewed": true,
+      "sha256": "e76d78c028e5c2e06b778cee775c150cfefebd820f5ec3de33449a5b89d34f4f",
+      "observation": "导出后闭环五项、发卡支路及外围支撑完整，未见缺材质。"
+    },
+    {
+      "file": "previews/02_game_assets_top.png",
+      "reviewed": true,
+      "sha256": "9ab95c4b7629a8a1a58640584b599719cf12afcadfbe1311803426cac19d01ba",
+      "observation": "单一库位及侧方场地、完整 S 弯、回程路口和大路连接保持。"
+    },
+    {
+      "file": "previews/03_game_assets_hill.png",
+      "reviewed": true,
+      "sha256": "88df2b0e055bf06cac316d4b89b9928e5d4fd7538a315ff5ee6e5d77538880d4",
+      "observation": "仅科目二坡道抬高，坡道实体、连续路缘和黄色停车线保持；发卡弯与大路平面。"
+    }
+  ]
+}

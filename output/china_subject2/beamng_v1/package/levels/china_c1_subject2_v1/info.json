@@ -1,0 +1,38 @@
+{
+  "title": "China C1 Subject 2 - Closed Loop",
+  "description": "C1 科目二闭环训练场：五项各一处，平面发卡弯与大路，10% 坡道。Built for BeamNG.drive 0.39; offline-checked, game testing pending.",
+  "authors": "Custom C1 training ground project",
+  "size": [
+    390,
+    320
+  ],
+  "previews": [
+    "preview.jpg"
+  ],
+  "defaultSpawnPointName": "spawns_default",
+  "spawnPoints": [
+    {
+      "translationId": "Exam Start / 考试入口",
+      "objectname": "spawns_default",
+      "description": "Exam Start / 考试入口",
+      "preview": "preview.jpg"
+    },
+    {
+      "translationId": "Main Road / 大路",
+      "objectname": "spawns_main",
+      "description": "Main Road / 大路",
+      "preview": "preview.jpg"
+    },
+    {
+      "translationId": "S Curve / 曲线行驶入口",
+      "objectname": "spawns_scurve",
+      "description": "S Curve / 曲线行驶入口",
+      "preview": "preview.jpg"
+    }
+  ],
+  "supportsTraffic": false,
+  "supportsTimeOfDay": true,
+  "roadRules": {
+    "rightHandDrive": false
+  }
+}

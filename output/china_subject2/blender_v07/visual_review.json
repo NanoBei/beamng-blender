@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-14",
+  "method": "逐张查看最终 Cycles 渲染图；结合独立保存后几何验收",
+  "reviewed_count": 10,
+  "findings": "预览中未发现缺失材质、明显标线穿插、路面裂口或考试场地遮挡。",
+  "limits": "静态视图检查，不等于动态闪烁、转向通过性或实际驾驶测试。",
+  "views": [
+    {
+      "file": "previews/01_overview.png",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "sha256": "e06cb01e507815b941173dc4b23e11677fee28893cbb1d1b181918b531f2523b",
+      "reviewed": true,
+      "observation": "整体范围完整，五项各一处，发卡区与外圈连通；坡道实体可见。"
+    },
+    {
+      "file": "previews/02_top.png",
+      "pixels": [
+        1500,
+        2100
+      ],
+      "sha256": "21c509d141af305e07120ec0643766c9cdd8389daa77f7e1865176a85e1b318b",
+      "reviewed": true,
+      "observation": "朝向与批准图一致，回程路在图上方；完整 S 形、库位和各路口清楚可见。"
+    },
+    {
+      "file": "previews/03_reverse.png",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "sha256": "3ed87ddacc7a376b5eae8e5f736c991d869312d2dfde6b5a9d0cdb782fab7793",
+      "reviewed": true,
+      "observation": "单一倒库及双控制线清楚，铺装与连接道衔接，路缘位于边线外。"
+    },
+    {
+      "file": "previews/04_parallel.png",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "sha256": "8658202926c07d20ba6ecec482c5fee2e384383b09e2bc4db560a032dc406a1a",
+      "reviewed": true,
+      "observation": "单一侧方库位、虚线及直连接道清楚；未见设施遮挡库位。"
+    },
+    {
+      "file": "previews/05_hill.png",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "sha256": "b10f83dd79c6760c6a78889b7eb36452859dbf510043ec351871663b64cd8923",
+      "reviewed": true,
+      "observation": "坡道上坡、平台和下坡连续，挡墙承托，黄色停车线贴合坡面。"
+    },
+    {
+      "file": "previews/06_s_curve.png",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "sha256": "30b193c2fa1d5aef20d20c27507c9401fa0ed2f655c662d58030259706141615",
+      "reviewed": true,
+      "observation": "两段反向弧完整，连续白色边线和黑黄路缘可见，局部构图突出 S 形。"
+    },
+    {
+      "file": "previews/07_right_angle.png",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "sha256": "28e7adf5e7e257557ced8ee0eb699f29f45ca4c2273992dbd7dbb225e10d99a4",
+      "reviewed": true,
+      "observation": "90° 内外边线清楚，接缝、标牌及外侧路缘可见。"
+    },
+    {
+      "file": "previews/08_flat_hairpin.png",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "sha256": "4886e9ec404bc9bf62af2d4af1bdbd3857a8fd29ac942b2ffeb7577d1e42f580",
+      "reviewed": true,
+      "observation": "双发卡保留原平面形状，路面无纵坡或横坡，尾部接回大路。"
+    },
+    {
+      "file": "previews/09_return_loop.png",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "sha256": "24de07dc3948732029da5dc8acf1a0ae1144865f2374f0fb5ad45d3e3b6f5e99",
+      "reviewed": true,
+      "observation": "回程两端曲线及直道连通，场地入口开口与主路路口未被路缘封闭。"
+    },
+    {
+      "file": "previews/10_main_road.png",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "sha256": "975467db8129a1d88276bb425f4169d0945809dea08b4f7a3acbde9eda5b30e8",
+      "reviewed": true,
+      "observation": "C63 比例与四轮接地外观正常，大路平面与后方坡道形成清楚高差。"
+    }
+  ]
+}

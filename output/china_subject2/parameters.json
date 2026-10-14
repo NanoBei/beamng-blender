@@ -1,0 +1,27 @@
+{
+  "units": "metres; Z up",
+  "source_status": "User-provided historical reference dimensions, not a certified current exam site",
+  "reference_vehicle": {"length": 4.858, "body_width": 1.847, "height": 1.439, "wheelbase": 2.908},
+  "display_vehicle": {"model": "Mercedes-AMG C63", "length": 4.756, "body_width": 1.839, "mirror_width": 2.020, "height": 1.426, "wheelbase": 2.840, "proxy_triangle_budget": 300000},
+  "dimensions": {
+    "reverse": {"length": 5.558, "width": 2.447, "aisle_width": 7.287, "control_each_side": 7.287},
+    "parallel": {"length": 8.287, "width": 2.647, "lane_width": 3.5705},
+    "s_curve": {"outer_radius": 7.5, "inner_radius": 4.0, "width": 3.5, "angle_degrees": 135},
+    "right_angle": {"width": 3.908, "minimum_outer_arm": 7.287, "angle_degrees": 90},
+    "ramp": {"width": 3.5, "grade": 0.1, "minimum_length": 20, "minimum_vertical_radius": 30, "stop_control_offset": 0.65}
+  },
+  "design_defaults": {
+    "site": [100, 75], "connector_width": 4.5, "connector_radius": 10,
+    "line_width": 0.15, "dash_length": 1, "dash_gap": 1, "paint_lift": 0.002,
+    "shoulder_beyond_paint": 0.3, "curb_height": 0.15, "curb_width": 0.18, "curb_block_length": 0.5,
+    "road_thickness": 0.18, "right_angle_outer_arm": 10,
+    "ramp_constant_grade_horizontal": 20, "ramp_vertical_radius": 30, "ramp_platform_length": 6, "ramp_stop_horizontal_station": 12,
+    "ramp_stop_line_width": 0.30,
+    "reverse_control_left_x": 6, "reverse_aisle_y": 16,
+    "parallel_bay_west_x": 16.3, "parallel_lane_y": 44,
+    "ramp_start": [26, 65], "s_start_y": 45, "right_angle_entry_y": 27,
+    "dimension_convention": "Parking and lane clear dimensions between paint inner edges; ramp transverse offsets between paint centres",
+    "route": ["Entrance", "Reverse parking", "Parallel parking", "Hill start", "S curve", "Right-angle turn", "Exit"],
+    "random_seed": 1248
+  }
+}

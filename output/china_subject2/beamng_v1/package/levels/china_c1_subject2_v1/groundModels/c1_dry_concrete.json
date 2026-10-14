@@ -1,0 +1,14 @@
+{
+  "C1V1_CONCRETE": {
+    "staticFrictionCoefficient": 1,
+    "slidingFrictionCoefficient": 0.8,
+    "hydrodynamicFriction": 0.01,
+    "stribeckVelocity": 6,
+    "strength": 1,
+    "roughnessCoefficient": 0,
+    "defaultDepth": 0,
+    "shearStrength": 0,
+    "collisiontype": "ASPHALT",
+    "skidMarks": true
+  }
+}

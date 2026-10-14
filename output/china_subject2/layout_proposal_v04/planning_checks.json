@@ -1,0 +1,46 @@
+{
+  "status": "proposed_unconfirmed",
+  "blender_started_or_modified": false,
+  "site_m": [
+    100.0,
+    75.0
+  ],
+  "site_area_m2": 7500,
+  "one_of_each_basic_project": true,
+  "old_reverse_to_parallel_connector_m": 45.41592653589793,
+  "new_reverse_to_parallel_connector_m": 8.0,
+  "connector_reduction_percent": 82.38503403937693,
+  "basic_vs_special_pavement_overlap_m2_at_5cm_resolution": 0.0,
+  "road_footprints_outside_site": [],
+  "hairpin_source": "V20 small_road.dae in existing BeamNG V3 ZIP, read only",
+  "hairpin_xy_transform": {
+    "rotation_degrees": 0,
+    "scale": 1,
+    "translation_m": [
+      33.0,
+      27.0
+    ]
+  },
+  "hairpin_original_tail_z_m": -6.073287517124043,
+  "new_vertical_transition": {
+    "radius_m": 30,
+    "horizontal_m": 5.2094453300079095,
+    "extra_drop_m": 0.4557674096337594
+  },
+  "new_low_pad": {
+    "size_m": [
+      12,
+      12
+    ],
+    "z_m": -6.529054926757802
+  },
+  "new_flat_curve_radius_m": 6,
+  "normal_connector_radius_m": 10,
+  "s_curve_end_to_collector_curve_straight_m": 6.3222720163547095,
+  "caveats": [
+    "Planning footprint only; kerbs, earthworks, retaining walls, vertical joining and vehicle swept paths need detailed design after approval.",
+    "12 m pad is a multi-point turnaround allowance, not a demonstrated one-manoeuvre turning circle.",
+    "Original steep-road dynamic driving has not been verified.",
+    "The old approved training dimensions are retained; this is not a certified official examination facility."
+  ]
+}

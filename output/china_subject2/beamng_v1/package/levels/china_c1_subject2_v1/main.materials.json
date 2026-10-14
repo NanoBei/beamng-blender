@@ -1,0 +1,482 @@
+{
+  "c1v1_concrete": {
+    "name": "c1v1_concrete",
+    "class": "Material",
+    "mapTo": "c1v1_concrete",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0,
+        "baseColorMap": "/levels/china_c1_subject2_v1/art/textures/road_atlas.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "C1V1_CONCRETE",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_asphalt": {
+    "name": "c1v1_asphalt",
+    "class": "Material",
+    "mapTo": "c1v1_asphalt",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0,
+        "baseColorMap": "/levels/china_c1_subject2_v1/art/textures/road_atlas.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ASPHALT",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_grass": {
+    "name": "c1v1_grass",
+    "class": "Material",
+    "mapTo": "c1v1_grass",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0,
+        "baseColorMap": "/levels/china_c1_subject2_v1/art/textures/grass_atlas.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "GRASS",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_white": {
+    "name": "c1v1_white",
+    "class": "Material",
+    "mapTo": "c1v1_white",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 0.7200000286102295,
+        "metallicFactor": 0.0,
+        "baseColorMap": "/levels/china_c1_subject2_v1/art/textures/paint.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ASPHALT",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": true,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_yellow": {
+    "name": "c1v1_yellow",
+    "class": "Material",
+    "mapTo": "c1v1_yellow",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7292999923229218,
+          0.4488000124692917,
+          0.032725000753998756,
+          1.0
+        ],
+        "roughnessFactor": 0.699999988079071,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "C1V1_CONCRETE",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_black": {
+    "name": "c1v1_black",
+    "class": "Material",
+    "mapTo": "c1v1_black",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.021505000069737434,
+          0.02711499948054552,
+          0.02805000077933073,
+          1.0
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "C1V1_CONCRETE",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_joint": {
+    "name": "c1v1_joint",
+    "class": "Material",
+    "mapTo": "c1v1_joint",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.06499999761581421,
+          0.07400000095367432,
+          0.07000000029802322,
+          1.0
+        ],
+        "roughnessFactor": 0.9599999785423279,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ASPHALT",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_metal": {
+    "name": "c1v1_metal",
+    "class": "Material",
+    "mapTo": "c1v1_metal",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.30000001192092896,
+          0.3400000035762787,
+          0.36000001430511475,
+          1.0
+        ],
+        "roughnessFactor": 0.3799999952316284,
+        "metallicFactor": 0.75
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "METAL",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_blue": {
+    "name": "c1v1_blue",
+    "class": "Material",
+    "mapTo": "c1v1_blue",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.017999999225139618,
+          0.10000000149011612,
+          0.1899999976158142,
+          1.0
+        ],
+        "roughnessFactor": 0.41999998688697815,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ASPHALT",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_masonry": {
+    "name": "c1v1_masonry",
+    "class": "Material",
+    "mapTo": "c1v1_masonry",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.4581499993801117,
+          0.4394499957561493,
+          0.3739999979734421,
+          1.0
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "C1V1_CONCRETE",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_repair": {
+    "name": "c1v1_repair",
+    "class": "Material",
+    "mapTo": "c1v1_repair",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.26647499948740005,
+          0.28050000220537186,
+          0.27115000039339066,
+          1.0
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "C1V1_CONCRETE",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_tire": {
+    "name": "c1v1_tire",
+    "class": "Material",
+    "mapTo": "c1v1_tire",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.17000000178813934,
+          0.1899999976158142,
+          0.18000000715255737,
+          1.0
+        ],
+        "roughnessFactor": 0.9800000190734863,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ASPHALT",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_soil": {
+    "name": "c1v1_soil",
+    "class": "Material",
+    "mapTo": "c1v1_soil",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.14000000059604645,
+          0.10499999672174454,
+          0.05999999865889549,
+          1.0
+        ],
+        "roughnessFactor": 0.9700000286102295,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "DIRT",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_bark": {
+    "name": "c1v1_bark",
+    "class": "Material",
+    "mapTo": "c1v1_bark",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.09349999949336052,
+          0.0598399993032217,
+          0.02898500021547079,
+          1.0
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "WOOD",
+    "doubleSided": false,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_leaves0": {
+    "name": "c1v1_leaves0",
+    "class": "Material",
+    "mapTo": "c1v1_leaves0",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.09349999949336052,
+          0.20570001006126404,
+          0.05142500251531601,
+          1.0
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "GRASS",
+    "doubleSided": true,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_leaves1": {
+    "name": "c1v1_leaves1",
+    "class": "Material",
+    "mapTo": "c1v1_leaves1",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.14960000291466713,
+          0.23375000059604645,
+          0.06545000150799751,
+          1.0
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "GRASS",
+    "doubleSided": true,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  },
+  "c1v1_leaves2": {
+    "name": "c1v1_leaves2",
+    "class": "Material",
+    "mapTo": "c1v1_leaves2",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.06545000150799751,
+          0.14492499828338623,
+          0.04207500070333481,
+          1.0
+        ],
+        "roughnessFactor": 0.8500000238418579,
+        "metallicFactor": 0.0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "GRASS",
+    "doubleSided": true,
+    "translucent": false,
+    "alphaTest": false,
+    "alphaRef": 128,
+    "useAnisotropic": true,
+    "materialTag0": "Road and Path"
+  }
+}

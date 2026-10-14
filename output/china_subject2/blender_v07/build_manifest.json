@@ -1,0 +1,28 @@
+{
+  "file": "china_subject2_v07_final.blend",
+  "previews": {
+    "01_overview": "CAM_Overview",
+    "02_top": "CAM_Top",
+    "03_reverse": "CAM_Reverse",
+    "04_parallel": "CAM_Parallel",
+    "05_hill": "CAM_Hill",
+    "06_s_curve": "CAM_SCurve",
+    "07_right_angle": "CAM_RightAngle",
+    "08_flat_hairpin": "CAM_FlatHairpin",
+    "09_return_loop": "CAM_ReturnLoop",
+    "10_main_road": "CAM_MainRoad"
+  },
+  "objects": 1389,
+  "trees": 10,
+  "car_high_triangles": 9394692,
+  "car_proxy_triangles": 259722,
+  "source_plan": "layout_proposal_v07",
+  "geometry_summary": {
+    "shapely": "2.1.2",
+    "pavement_union_area_m2": 2039.5405622481176,
+    "triangulated_area_m2": 2039.540562248249,
+    "flat_material_overlap_m2": 0.0,
+    "plan_geometry_unchanged": true,
+    "project_count": 5
+  }
+}

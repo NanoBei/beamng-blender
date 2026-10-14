@@ -1,0 +1,20 @@
+[
+  {
+    "angle_each_deg": 135,
+    "total_heading_sweep_deg": 270,
+    "centerline_length_m": 27.096236637211966,
+    "endpoint_m": [
+      8.131727983645296,
+      19.6317279836453
+    ]
+  },
+  {
+    "angle_each_deg": 150,
+    "total_heading_sweep_deg": 300,
+    "centerline_length_m": 30.106929596902187,
+    "endpoint_m": [
+      5.749999999999999,
+      21.459292143521047
+    ]
+  }
+]

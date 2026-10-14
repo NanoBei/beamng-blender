@@ -1,0 +1,65 @@
+{
+  "status": "pending_user_confirmation",
+  "blender_modified": false,
+  "site_m": [
+    80.0,
+    60.0
+  ],
+  "area_m2": 4800,
+  "area_reduction_vs_v03_percent": 36,
+  "project_counts": {
+    "reverse": 1,
+    "parallel": 1,
+    "s_curve": 1,
+    "right_angle": 1,
+    "ramp": 1
+  },
+  "extra_projects": [],
+  "reverse_to_parallel_connector_m": 8,
+  "approved_dimensions": {
+    "reverse": {
+      "length": 5.558,
+      "width": 2.447,
+      "aisle_width": 7.287,
+      "control_each_side": 7.287
+    },
+    "parallel": {
+      "length": 8.287,
+      "width": 2.647,
+      "lane_width": 3.5705
+    },
+    "s_curve": {
+      "outer_radius": 7.5,
+      "inner_radius": 4.0,
+      "width": 3.5,
+      "angle_degrees": 135
+    },
+    "right_angle": {
+      "width": 3.908,
+      "minimum_outer_arm": 7.287,
+      "angle_degrees": 90
+    },
+    "ramp": {
+      "width": 3.5,
+      "grade": 0.1,
+      "minimum_length": 20,
+      "minimum_vertical_radius": 30,
+      "stop_control_offset": 0.65
+    }
+  },
+  "hill": {
+    "horizontal_total_m": 57.94044628251987,
+    "height_m": 2.297768587400651,
+    "start": [
+      63.6777279836453,
+      56.6777279836453
+    ],
+    "end": [
+      5.737281701125426,
+      56.6777279836453
+    ]
+  },
+  "road_polygons_outside_site": [],
+  "project_overlap_m2_at_5cm_grid": {},
+  "clearance_note": "Planning net pavement only; exact shoulders, signs, ramp earthworks and swept paths await approved detailed design."
+}

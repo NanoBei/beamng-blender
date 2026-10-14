@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-14",
+  "scene": "blender/china_subject2_v03_final.blend",
+  "views": [
+    {
+      "file": "previews/01_overview.png",
+      "sha256": "d7721b8c6afcbc01f3481b3b83f30d6bb4cfffb9b5a6fe4effa7982bd0385649",
+      "reviewed": true,
+      "observation": "完整场地、五项位置与连通路线清晰，未见主体被裁切。"
+    },
+    {
+      "file": "previews/02_top.png",
+      "sha256": "8000ffc1595042bec5045fd53bd43eefa214cba1d33875ab88c00017bc0dded3",
+      "reviewed": true,
+      "observation": "五项开口、道路顺序、白色标线及黄色坡道控制线可辨认。"
+    },
+    {
+      "file": "previews/03_reverse.png",
+      "sha256": "9bac25c1b52b8efe7a495139224cb54b1f09cf298e62709c9152431a21f40013",
+      "reviewed": true,
+      "observation": "C63 落在库内，控制虚线、库位边线和路缘留边可辨认。"
+    },
+    {
+      "file": "previews/04_parallel.png",
+      "sha256": "2553d6e9bfb013ee6d4837446506e82ed29e7284ce6e98682bb9ff1308c30e34",
+      "reviewed": true,
+      "observation": "侧方库开口虚线、连续边线、路面切缝和路肩排水口位置清晰。"
+    },
+    {
+      "file": "previews/05_hill.png",
+      "sha256": "27806ca7b4a2879b214ff9e9c99a3e277baa96233356e32b839ae7fac87e3a0a",
+      "reviewed": true,
+      "observation": "上坡、顶部平台、下坡及侧面高差可见，漆线随坡道贴合。"
+    },
+    {
+      "file": "previews/06_s_curve.png",
+      "sha256": "8dbede9bf3ec0f007446eb6f109345792c4d8f00b72b73c7c4dc0b8b8704bd15",
+      "reviewed": true,
+      "observation": "两段连续反向圆弧、白线与外侧黑黄路缘清晰，无可见道路裂口。"
+    },
+    {
+      "file": "previews/07_right_angle.png",
+      "sha256": "568387f2be0b6e86fe5e4a2276528d94a14b8c3eebcd60cd7336be461d36f181",
+      "reviewed": true,
+      "observation": "90 度折角完整，漆线与路缘分离，排水口位于路肩。"
+    }
+  ],
+  "live_blender_opened_via_mcp": true,
+  "previous_unsaved_scene_backup": "blender/session_backups/before_subject2_1791970736.blend"
+}

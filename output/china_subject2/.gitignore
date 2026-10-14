@@ -1,0 +1,11 @@
+# Third-party personal-use vehicle and reference images stay local.
+*.blend
+*.blend1
+assets/
+references/images/
+*.log
+__pycache__/
+.deps/
+
+# Original layout reference images also remain local.
+layout_proposal_v04/*_reference.*

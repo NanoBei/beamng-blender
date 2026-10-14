@@ -1,0 +1,133 @@
+{
+  "status": "pending_user_confirmation",
+  "blender_modified": false,
+  "site_m": [
+    80.0,
+    60.0
+  ],
+  "area_m2": 4800,
+  "counts": {
+    "reverse": 1,
+    "parallel": 1,
+    "s_curve": 1,
+    "right_angle": 1,
+    "ramp": 1
+  },
+  "reverse_to_parallel_straight_m": 8,
+  "s_curve_proposal": {
+    "outer_radius_m": 7.5,
+    "inner_radius_m": 4,
+    "net_width_m": 3.5,
+    "angle_each_deg": 150.0,
+    "baseline_angle_each_deg": 135,
+    "type": "custom practice, awaiting confirmation",
+    "changed_curvature": false,
+    "changed_total_heading_sweep": true
+  },
+  "flattened_source": {
+    "main_road": {
+      "archive": "output/mountain_hairpin_road/beamng_hairpin_test_v3/tight_hairpin_drive_v3.zip",
+      "member": "levels/tight_hairpin_drive_v3/art/shapes/main_road.dae",
+      "sha256": "bb23ba2f4d357af3caff4dfbacd92156cfec3b2f41697f2ea75663354cba35ec",
+      "source_bounds_m": [
+        [
+          0.0,
+          42.0,
+          0.0
+        ],
+        [
+          44.0,
+          47.0,
+          0.0
+        ]
+      ],
+      "boundary_vertices": 4,
+      "translation_xy_m": [
+        0.0,
+        -1.0
+      ],
+      "rotation_degrees": 0,
+      "xy_scale": 1,
+      "proposed_z_m": 0,
+      "max_xy_translation_error_m": 0.0
+    },
+    "small_road": {
+      "archive": "output/mountain_hairpin_road/beamng_hairpin_test_v3/tight_hairpin_drive_v3.zip",
+      "member": "levels/tight_hairpin_drive_v3/art/shapes/small_road.dae",
+      "sha256": "0ba063e8421aadaaca5b61f91f64c70a1340c056b5fdc4a466a4d484776212d0",
+      "source_bounds_m": [
+        [
+          12.005909,
+          17.8253193,
+          -6.1010375
+        ],
+        [
+          31.7736282,
+          42.0,
+          0.0
+        ]
+      ],
+      "boundary_vertices": 2494,
+      "translation_xy_m": [
+        0.0,
+        -1.0
+      ],
+      "rotation_degrees": 0,
+      "xy_scale": 1,
+      "proposed_z_m": 0,
+      "max_xy_translation_error_m": 0.0
+    }
+  },
+  "flat_zone_elevation_m": 0,
+  "original_exam_hill": {
+    "horizontal_length_m": 57.94044628251987,
+    "height_m": 2.297768587400651,
+    "constant_grade": 0.1,
+    "start_m": [
+      61.29599999999999,
+      57.00529214352105
+    ],
+    "end_m": [
+      3.35555371748012,
+      57.00529214352105
+    ]
+  },
+  "new_flat_connections": {
+    "radius_m": 10,
+    "width_m": 3,
+    "main_extension_width_m": 5,
+    "main_extension_length_m": 27.295999999999992,
+    "intersection_center_m": [
+      71.29599999999999,
+      43.5
+    ]
+  },
+  "outside_site": [],
+  "exam_pair_overlap_m2_at_5cm_grid": {},
+  "pavement_connectivity_at_5cm_grid": {
+    "all_connected": true,
+    "unreachable_pixels": 0
+  },
+  "flat_zone_vs_exam_overlap_m2_at_5cm_grid": {
+    "reverse": 0.0,
+    "parallel": 0.0,
+    "s_curve": 0.0,
+    "right_angle": 0.0,
+    "ramp": 0.0
+  },
+  "critical_pavement_gaps_m": {
+    "s_curve_to_flat_return": 1.761238285673989,
+    "main_extension_to_right_angle": 1.4947078564789535
+  },
+  "paint_shoulder_curb_reserve_each_side_m": 0.6299999999999999,
+  "remaining_gap_after_two_reserves_m": {
+    "s_curve_to_flat_return": 0.5012382856739892,
+    "main_extension_to_right_angle": 0.23470785647895376
+  },
+  "scope_exclusions": [
+    "tunnel",
+    "rain/fog/wet-surface projects",
+    "mountain terrain/cliff/deep ditch"
+  ],
+  "limitations": "2D pavement planning checks only. Junction fillets, hill retaining structure, swept paths and Blender geometry await approval."
+}

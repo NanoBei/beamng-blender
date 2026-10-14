@@ -1,0 +1,372 @@
+{
+  "checks": {
+    "reverse_bay_width": {
+      "actual": 2.447000503540039,
+      "expected": 2.447,
+      "max_error": 5.035400389985512e-07,
+      "passed": true
+    },
+    "reverse_bay_length": {
+      "actual": 5.557999610900879,
+      "expected": 5.558,
+      "max_error": 3.8909912092321974e-07,
+      "passed": true
+    },
+    "reverse_aisle_width": {
+      "actual": 7.286999702453613,
+      "expected": 7.287,
+      "max_error": 2.975463866405903e-07,
+      "passed": true
+    },
+    "reverse_left_control_h": {
+      "actual": 7.286999702453613,
+      "expected": 7.287,
+      "max_error": 2.975463866405903e-07,
+      "passed": true
+    },
+    "reverse_right_control_h": {
+      "actual": 7.286999702453613,
+      "expected": 7.287,
+      "max_error": 2.975463866405903e-07,
+      "passed": true
+    },
+    "parallel_bay_length": {
+      "actual": 8.28700065612793,
+      "expected": 8.287,
+      "max_error": 6.561279288774813e-07,
+      "passed": true
+    },
+    "parallel_bay_width": {
+      "actual": 2.6469993591308594,
+      "expected": 2.647,
+      "max_error": 6.408691404224953e-07,
+      "passed": true
+    },
+    "parallel_lane_width": {
+      "actual": 3.5705032348632812,
+      "expected": 3.5705,
+      "max_error": 3.2348632812428946e-06,
+      "passed": true
+    },
+    "right_angle_vertical_width": {
+      "actual": 3.9079971313476562,
+      "expected": 3.908,
+      "max_error": 2.8686523436682876e-06,
+      "passed": true
+    },
+    "right_angle_horizontal_width": {
+      "actual": 3.908000946044922,
+      "expected": 3.908,
+      "max_error": 9.460449219567124e-07,
+      "passed": true
+    },
+    "right_angle_vertical_outer_arm": {
+      "actual": 10.0,
+      "expected": 10,
+      "max_error": 0.0,
+      "passed": true
+    },
+    "right_angle_horizontal_outer_arm": {
+      "actual": 10.0,
+      "expected": 10,
+      "max_error": 0.0,
+      "passed": true
+    },
+    "SCurve_First_L_radius": {
+      "actual": {
+        "min": 7.499996117162708,
+        "max": 7.500003575680051,
+        "fit_center": [
+          88.19044649809165,
+          45.00000013354323
+        ]
+      },
+      "expected": 7.5,
+      "max_error": 3.8828372916910325e-06,
+      "passed": true
+    },
+    "SCurve_First_L_sweep_degrees": {
+      "actual": 134.99998603449376,
+      "expected": 135,
+      "max_error": 1.3965506241220282e-05,
+      "passed": true
+    },
+    "SCurve_First_R_radius": {
+      "actual": {
+        "min": 3.9999955032505192,
+        "max": 4.000003428787127,
+        "fit_center": [
+          88.19044679162496,
+          44.99999981074
+        ]
+      },
+      "expected": 4,
+      "max_error": 4.496749480775719e-06,
+      "passed": true
+    },
+    "SCurve_First_R_sweep_degrees": {
+      "actual": 134.9999846810784,
+      "expected": 135,
+      "max_error": 1.531892161210635e-05,
+      "passed": true
+    },
+    "SCurve_Second_L_radius": {
+      "actual": {
+        "min": 3.999995696060547,
+        "max": 4.000003376347722,
+        "fit_center": [
+          80.05871812322216,
+          36.86827281986863
+        ]
+      },
+      "expected": 4,
+      "max_error": 4.3039394528321395e-06,
+      "passed": true
+    },
+    "SCurve_Second_L_sweep_degrees": {
+      "actual": 135.00006289301155,
+      "expected": 135,
+      "max_error": 6.289301154538407e-05,
+      "passed": true
+    },
+    "SCurve_Second_R_radius": {
+      "actual": {
+        "min": 7.499996400411008,
+        "max": 7.500004043052877,
+        "fit_center": [
+          80.05871837348928,
+          36.86827162568009
+        ]
+      },
+      "expected": 7.5,
+      "max_error": 4.0430528773782726e-06,
+      "passed": true
+    },
+    "SCurve_Second_R_sweep_degrees": {
+      "actual": 135.00001661720475,
+      "expected": 135,
+      "max_error": 1.6617204749991288e-05,
+      "passed": true
+    },
+    "S_tangent_join_L": {
+      "actual": [
+        [
+          82.88714599609375,
+          39.69669723510742,
+          0.0020000000949949026
+        ],
+        [
+          82.78108215332031,
+          39.590633392333984,
+          0.0020000000949949026
+        ]
+      ],
+      "expected": [
+        [
+          82.88714599609375,
+          39.69669723510742,
+          0.0020000000949949026
+        ],
+        [
+          82.78108215332031,
+          39.590633392333984,
+          0.0020000000949949026
+        ]
+      ],
+      "max_error": 0.0,
+      "passed": true
+    },
+    "S_tangent_join_R": {
+      "actual": [
+        [
+          85.36202239990234,
+          42.171573638916016,
+          0.0020000000949949026
+        ],
+        [
+          85.46808624267578,
+          42.27763748168945,
+          0.0020000000949949026
+        ]
+      ],
+      "expected": [
+        [
+          85.36202239990234,
+          42.171573638916016,
+          0.0020000000949949026
+        ],
+        [
+          85.46808624267578,
+          42.27763748168945,
+          0.0020000000949949026
+        ]
+      ],
+      "max_error": 0.0,
+      "passed": true
+    },
+    "ramp_lane_width": {
+      "actual": 3.5,
+      "expected": 3.5,
+      "max_error": 0.0,
+      "passed": true
+    },
+    "ramp_peak_height": {
+      "actual": 2.2977685928344727,
+      "expected": 2.297768587400651,
+      "max_error": 5.433821836930974e-09,
+      "passed": true
+    },
+    "ramp_length": {
+      "actual": 57.94044494628906,
+      "expected": 57.94044628251987,
+      "max_error": 1.3362308095565822e-06,
+      "passed": true
+    },
+    "ramp_ground_joins": {
+      "actual": [
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "max_error": 0.0,
+      "passed": true
+    },
+    "ramp_constant_grade": {
+      "actual": {
+        "min": 0.09996922074159907,
+        "max": 0.10005733944954129
+      },
+      "expected": 0.1,
+      "max_error": 5.733944954128267e-05,
+      "passed": true
+    },
+    "ramp_continuous_grade": {
+      "passed": true,
+      "detail": {
+        "max_neighbor_grade_difference": 0.0027028639618138367
+      }
+    },
+    "ramp_stop_station": {
+      "actual": 12.0,
+      "expected": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    "ramp_control_offsets": {
+      "actual": [
+        0.6499996185302734,
+        0.6499996185302734
+      ],
+      "expected": [
+        0.65,
+        0.65
+      ],
+      "max_error": 3.8146972658470446e-07,
+      "passed": true
+    },
+    "route_edge_joins": {
+      "passed": true,
+      "detail": {
+        "max_join_gap_m": 0.0
+      }
+    },
+    "paint_supported_by_road": {
+      "passed": true,
+      "detail": []
+    },
+    "paint_close_to_surface": {
+      "passed": true,
+      "detail": {
+        "min_lift_m": 0.001999761676415801,
+        "max_lift_m": 0.002000238513574004
+      }
+    },
+    "ribbon_surface_normals_up": {
+      "passed": true,
+      "detail": []
+    },
+    "facilities_clear_of_driving_width": {
+      "passed": true,
+      "detail": []
+    },
+    "C63_length_bodywidth_mirrorwidth_height": {
+      "actual": [
+        4.75600004196168,
+        1.8389999866485631,
+        2.0199999809265172,
+        1.4259999990463257
+      ],
+      "expected": [
+        4.756,
+        1.839,
+        2.02,
+        1.426
+      ],
+      "max_error": 4.196167946446394e-08,
+      "passed": true
+    },
+    "C63_wheelbase": {
+      "actual": 2.8400000631809283,
+      "expected": 2.84,
+      "max_error": 6.318092848900392e-08,
+      "passed": true
+    },
+    "C63_four_wheels_ground": {
+      "actual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_error": 0.0,
+      "passed": true
+    },
+    "C63_proxy_budget": {
+      "passed": true,
+      "detail": {
+        "triangles": 259722,
+        "high_triangles": 9394692
+      }
+    },
+    "C63_display_modes": {
+      "passed": true,
+      "detail": null
+    },
+    "no_missing_used_textures": {
+      "passed": true,
+      "detail": []
+    },
+    "no_missing_used_fonts": {
+      "passed": true,
+      "detail": []
+    },
+    "unit_metres": {
+      "passed": true,
+      "detail": null
+    },
+    "site_dimensions": {
+      "actual": [
+        100.0,
+        75.0
+      ],
+      "expected": [
+        100,
+        75
+      ],
+      "max_error": 0.0,
+      "passed": true
+    }
+  },
+  "failures": [],
+  "passed": true,
+  "file": "blender/china_subject2_v03_final.blend"
+}

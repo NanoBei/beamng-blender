@@ -1,0 +1,487 @@
+{
+  "file": "china_subject2_v07_final.blend",
+  "checks": {
+    "reverse_bay_width": {
+      "actual": 2.447000503540039,
+      "expected": 2.447,
+      "max_error": 5.035400389985512e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "reverse_bay_length": {
+      "actual": 5.558000147342682,
+      "expected": 5.558,
+      "max_error": 1.4734268205529588e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "reverse_aisle_width": {
+      "actual": 7.2870001792907715,
+      "expected": 7.287,
+      "max_error": 1.792907715625347e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "reverse_control_left": {
+      "actual": 7.286999702453613,
+      "expected": 7.287,
+      "max_error": 2.975463866405903e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "reverse_control_right": {
+      "actual": 7.286999702453613,
+      "expected": 7.287,
+      "max_error": 2.975463866405903e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "parallel_bay_length": {
+      "actual": 8.286998748779297,
+      "expected": 8.287,
+      "max_error": 1.2512207039350187e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "parallel_bay_width": {
+      "actual": 2.647000312805176,
+      "expected": 2.647,
+      "max_error": 3.128051759837547e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "parallel_lane_width": {
+      "actual": 3.5704994201660156,
+      "expected": 3.5705,
+      "max_error": 5.798339843821054e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "right_angle_vertical_width": {
+      "actual": 3.9080047607421875,
+      "expected": 3.908,
+      "max_error": 4.760742187581712e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "right_angle_horizontal_width": {
+      "actual": 3.907999038696289,
+      "expected": 3.908,
+      "max_error": 9.613037108557876e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "right_angle_outer_vertical_arm": {
+      "actual": 9.999998092651367,
+      "expected": 10,
+      "max_error": 1.9073486328125e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "right_angle_outer_horizontal_arm": {
+      "actual": 10.0,
+      "expected": 10,
+      "max_error": 0.0,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "LINE_SCurve_First_L_has_measured_inner_edge": {
+      "passed": true,
+      "detail": 171
+    },
+    "LINE_SCurve_First_L_radius_extrema": {
+      "actual": [
+        3.9999976896574525,
+        4.000001739274862
+      ],
+      "expected": [
+        4,
+        4
+      ],
+      "max_error": 2.310342547495736e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "LINE_SCurve_First_L_angular_sweep": {
+      "actual": 135.0000153079855,
+      "expected": 135,
+      "max_error": 1.530798550675172e-05,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    "LINE_SCurve_First_R_has_measured_inner_edge": {
+      "passed": true,
+      "detail": 171
+    },
+    "LINE_SCurve_First_R_radius_extrema": {
+      "actual": [
+        7.499998405031112,
+        7.500002226059759
+      ],
+      "expected": [
+        7.5,
+        7.5
+      ],
+      "max_error": 2.2260597587475672e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "LINE_SCurve_First_R_angular_sweep": {
+      "actual": 134.9999839282063,
+      "expected": 135,
+      "max_error": 1.6071793709215854e-05,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    "LINE_SCurve_Second_L_has_measured_inner_edge": {
+      "passed": true,
+      "detail": 171
+    },
+    "LINE_SCurve_Second_L_radius_extrema": {
+      "actual": [
+        7.499998315036302,
+        7.500002228510594
+      ],
+      "expected": [
+        7.5,
+        7.5
+      ],
+      "max_error": 2.2285105938379957e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "LINE_SCurve_Second_L_angular_sweep": {
+      "actual": 135.00000555797354,
+      "expected": 135,
+      "max_error": 5.557973537406724e-06,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    "LINE_SCurve_Second_R_has_measured_inner_edge": {
+      "passed": true,
+      "detail": 171
+    },
+    "LINE_SCurve_Second_R_radius_extrema": {
+      "actual": [
+        3.9999976874062404,
+        4.00000129325167
+      ],
+      "expected": [
+        4,
+        4
+      ],
+      "max_error": 2.3125937596013557e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "LINE_SCurve_Second_R_angular_sweep": {
+      "actual": 135.0000535394865,
+      "expected": 135,
+      "max_error": 5.353948648689766e-05,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    "S_curve_tangent_paint_join_L": {
+      "actual": 0.0,
+      "expected": 0,
+      "max_error": 0.0,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "S_curve_tangent_paint_join_R": {
+      "actual": 0.0,
+      "expected": 0,
+      "max_error": 0.0,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "return_lane_width": {
+      "actual": 4.5,
+      "expected": 4.5,
+      "max_error": 0.0,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "LINE_回程上弯R10_R_has_measured_inner_edge": {
+      "passed": true,
+      "detail": 198
+    },
+    "LINE_回程上弯R10_R_radius_extrema": {
+      "actual": [
+        12.24999818756323,
+        12.25000189445547
+      ],
+      "expected": [
+        12.25,
+        12.25
+      ],
+      "max_error": 1.894455470718981e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "LINE_回程上弯R10_R_angular_sweep": {
+      "actual": 90.00000507020827,
+      "expected": 90,
+      "max_error": 5.070208274560173e-06,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    "LINE_回程下弯R10_R_has_measured_inner_edge": {
+      "passed": true,
+      "detail": 198
+    },
+    "LINE_回程下弯R10_R_radius_extrema": {
+      "actual": [
+        12.249999399414612,
+        12.250000444395859
+      ],
+      "expected": [
+        12.25,
+        12.25
+      ],
+      "max_error": 6.005853876445144e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "LINE_回程下弯R10_R_angular_sweep": {
+      "actual": 90.00000032601979,
+      "expected": 90,
+      "max_error": 3.2601978716684243e-07,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    "main_road_two_boundary_lines": {
+      "passed": true,
+      "detail": [
+        [
+          40.849998474121094,
+          41.0
+        ],
+        [
+          46.0,
+          46.150001525878906
+        ]
+      ]
+    },
+    "main_road_net_width": {
+      "actual": 5.0,
+      "expected": 5,
+      "max_error": 0.0,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "imported_hairpin_boundary_supported_flat": {
+      "passed": true,
+      "detail": null
+    },
+    "ROAD_Flat_Concrete_all_vertices_flat": {
+      "actual": 0.0,
+      "expected": 0,
+      "max_error": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    "ROAD_Flat_Asphalt_all_vertices_flat": {
+      "actual": 0.0,
+      "expected": 0,
+      "max_error": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    "hill_horizontal_length": {
+      "actual": 57.94044494628906,
+      "expected": 57.94044628251987,
+      "max_error": 1.3362308095565822e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "hill_peak": {
+      "actual": 2.2977685928344727,
+      "expected": 2.297768587400651,
+      "max_error": 5.433821836930974e-09,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "hill_ground_joins": {
+      "actual": [
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "max_error": 0.0,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "hill_net_width": {
+      "actual": 3.5,
+      "expected": 3.5,
+      "max_error": 0.0,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "hill_constant_grade_extrema": {
+      "actual": [
+        -0.10003993610223642,
+        -0.09992937853107345
+      ],
+      "expected": [
+        -0.1,
+        -0.1
+      ],
+      "max_error": 7.062146892655718e-05,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    "hill_vertical_transition_continuity": {
+      "passed": true,
+      "detail": {
+        "max_grade_change": 0.0020371959959527702
+      }
+    },
+    "hill_stop_station": {
+      "actual": 11.999998092651367,
+      "expected": 12,
+      "max_error": 1.9073486328125e-06,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "hill_control_line_spacing": {
+      "actual": [
+        0.6499996185302734,
+        0.6499996185302734
+      ],
+      "expected": [
+        0.65,
+        0.65
+      ],
+      "max_error": 3.8146972658470446e-07,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "saved_pavement_projected_area": {
+      "actual": 2039.5405557140773,
+      "expected": 2039.5405622481176,
+      "max_error": 6.5340402670699405e-06,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    "road_top_normals_up": {
+      "passed": true,
+      "detail": []
+    },
+    "all_paint_supported_by_road": {
+      "passed": true,
+      "detail": []
+    },
+    "paint_surface_lift": {
+      "passed": true,
+      "detail": {
+        "min": 0.001995854079723358,
+        "max": 0.002014636993408203
+      }
+    },
+    "loop_and_branch_surfaces_continuous": {
+      "passed": true,
+      "detail": []
+    },
+    "facilities_outside_net_driving_width": {
+      "passed": true,
+      "detail": []
+    },
+    "car_display_switch": {
+      "passed": true,
+      "detail": null
+    },
+    "C63_length_bodywidth_mirrorwidth_height": {
+      "actual": [
+        4.75600004196167,
+        1.8389999866485596,
+        2.0199999809265137,
+        1.4259999990463257
+      ],
+      "expected": [
+        4.756,
+        1.839,
+        2.02,
+        1.426
+      ],
+      "max_error": 4.1961669694501325e-08,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "C63_wheelbase": {
+      "actual": 2.8400000631809235,
+      "expected": 2.84,
+      "max_error": 6.318092360402261e-08,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "C63_four_wheels_supported": {
+      "passed": true,
+      "detail": [
+        {
+          "axle": "rear",
+          "x": -1.3160000145435333,
+          "bottom": 0.0,
+          "road_z": 0.0
+        },
+        {
+          "axle": "rear",
+          "x": -1.3160000145435333,
+          "bottom": 0.0,
+          "road_z": 0.0
+        },
+        {
+          "axle": "front",
+          "x": 1.5240000486373901,
+          "bottom": 0.0,
+          "road_z": 0.0
+        },
+        {
+          "axle": "front",
+          "x": 1.5240000486373901,
+          "bottom": 0.0,
+          "road_z": -9.5367431640625e-07
+        }
+      ]
+    },
+    "C63_proxy_under_300k": {
+      "passed": true,
+      "detail": 259722
+    },
+    "car_shared_parent": {
+      "passed": true,
+      "detail": null
+    },
+    "no_missing_used_textures": {
+      "passed": true,
+      "detail": []
+    },
+    "no_missing_used_fonts": {
+      "passed": true,
+      "detail": []
+    },
+    "site_size": {
+      "actual": [
+        90.0,
+        60.0
+      ],
+      "expected": [
+        90,
+        60
+      ],
+      "max_error": 0.0,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    "metre_units": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "failures": [],
+  "passed": true
+}
