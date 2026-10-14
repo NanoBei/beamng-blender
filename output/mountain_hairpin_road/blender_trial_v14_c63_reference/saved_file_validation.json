@@ -1,0 +1,110 @@
+{
+  "road_trial_v14_c63_reference.blend": {
+    "passed": true,
+    "world_position_m": [
+      7.5,
+      44.25,
+      0.0
+    ],
+    "length_m": 4.756000518798828,
+    "body_width_m": 1.8389968872070312,
+    "including_mirrors_width_m": 2.0199966430664062,
+    "height_m": 1.4259999990463257,
+    "wheelbase_m": 2.8400001525878906,
+    "wheel_checks": {
+      "C63_back__left_tire": {
+        "center_world": [
+          6.184000015258789,
+          44.95024108886719,
+          0.3251390755176544
+        ],
+        "lowest_z_m": 0.0,
+        "axle": "rear"
+      },
+      "C63_back_right_tire": {
+        "center_world": [
+          6.184000015258789,
+          43.54975891113281,
+          0.3251390755176544
+        ],
+        "lowest_z_m": 0.0,
+        "axle": "rear"
+      },
+      "C63_Front_right_tire_": {
+        "center_world": [
+          9.02400016784668,
+          43.52069091796875,
+          0.32513904571533203
+        ],
+        "lowest_z_m": 0.0,
+        "axle": "front"
+      },
+      "C63_Front_left_tire": {
+        "center_world": [
+          9.02400016784668,
+          44.97930908203125,
+          0.32513904571533203
+        ],
+        "lowest_z_m": 0.0,
+        "axle": "front"
+      }
+    },
+    "car_mesh_triangles": 9394692,
+    "road_object_count": 2,
+    "missing_used_textures": []
+  },
+  "mercedes_amg_c63_reference.blend": {
+    "passed": true,
+    "world_position_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "length_m": 4.75600004196167,
+    "body_width_m": 1.8389999866485596,
+    "including_mirrors_width_m": 2.0199999809265137,
+    "height_m": 1.4259999990463257,
+    "wheelbase_m": 2.840000033378601,
+    "wheel_checks": {
+      "C63_back__left_tire": {
+        "center_world": [
+          -1.315999984741211,
+          0.7002395391464233,
+          0.3251390755176544
+        ],
+        "lowest_z_m": 0.0,
+        "axle": "rear"
+      },
+      "C63_back_right_tire": {
+        "center_world": [
+          -1.315999984741211,
+          -0.7002395391464233,
+          0.3251390755176544
+        ],
+        "lowest_z_m": 0.0,
+        "axle": "rear"
+      },
+      "C63_Front_right_tire_": {
+        "center_world": [
+          1.5240000486373901,
+          -0.7293070554733276,
+          0.32513904571533203
+        ],
+        "lowest_z_m": 0.0,
+        "axle": "front"
+      },
+      "C63_Front_left_tire": {
+        "center_world": [
+          1.5240000486373901,
+          0.7293069362640381,
+          0.32513904571533203
+        ],
+        "lowest_z_m": 0.0,
+        "axle": "front"
+      }
+    },
+    "car_mesh_triangles": 9394692,
+    "road_object_count": 0,
+    "missing_used_textures": []
+  }
+}

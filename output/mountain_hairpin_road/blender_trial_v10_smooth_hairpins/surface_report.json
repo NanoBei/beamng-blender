@@ -1,0 +1,42 @@
+{
+  "source_scene": "V9 live scene snapshot",
+  "plan_vertices_unchanged": true,
+  "main_road_max_height_error_m": 0.0,
+  "road_before": {
+    "triangles": 21158,
+    "max_face_slope_deg": 89.64581640422867,
+    "faces_over_30deg": 842,
+    "area_over_30deg_m2": 2.723142039318312,
+    "max_slope_on_faces_over_1cm2_deg": 88.59219643270063
+  },
+  "road_after": {
+    "triangles": 21158,
+    "max_face_slope_deg": 22.234678663055714,
+    "faces_over_30deg": 0,
+    "area_over_30deg_m2": 0.0,
+    "max_slope_on_faces_over_1cm2_deg": 22.234678663055714
+  },
+  "hairpin_mean_grade_deg": 3,
+  "inward_crossfall_at_apex_percent": 3,
+  "approach_transition_m": 5.0,
+  "end_z_before_m": -8.874049978576059,
+  "end_z_after_m": -6.073287517124043,
+  "shared_road_terrain_vertices": 2410,
+  "max_shared_boundary_height_error_m": 2.3832506546028753e-07,
+  "beamng_runtime_tested": false,
+  "status": "model preview pending user review",
+  "curve_1": {
+    "triangles": 5386,
+    "max_face_slope_deg": 9.976273746897974,
+    "faces_over_30deg": 0,
+    "area_over_30deg_m2": 0.0,
+    "max_slope_on_faces_over_1cm2_deg": 9.976273746897974
+  },
+  "curve_2": {
+    "triangles": 5382,
+    "max_face_slope_deg": 10.531106949621401,
+    "faces_over_30deg": 0,
+    "area_over_30deg_m2": 0.0,
+    "max_slope_on_faces_over_1cm2_deg": 10.531106949621401
+  }
+}

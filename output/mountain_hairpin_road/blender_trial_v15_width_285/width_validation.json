@@ -1,0 +1,98 @@
+{
+  "target_width_m": 2.85,
+  "previous_width_m": 2.7705,
+  "each_side_increase_m": 0.03974999999999995,
+  "measured_straight_sections": [
+    {
+      "station_m": 12.0,
+      "width_m": 2.850012719631195
+    },
+    {
+      "station_m": 15.0,
+      "width_m": 2.8499959111213684
+    },
+    {
+      "station_m": 30.02982073809116,
+      "width_m": 2.8499985933303833
+    },
+    {
+      "station_m": 32.02982073809116,
+      "width_m": 2.849999576807022
+    },
+    {
+      "station_m": 47.05964147618232,
+      "width_m": 2.850000113248825
+    },
+    {
+      "station_m": 53.05964147618232,
+      "width_m": 2.850000113248825
+    }
+  ],
+  "both_hairpin_sides_offset": true,
+  "main_road_unchanged": true,
+  "road_vertex_elevations_unchanged": true,
+  "shared_road_terrain_vertices_verified": 2412,
+  "road_triangle_flips": 0,
+  "rock_vertices_intruding_on_pavement": [],
+  "car_pose_unchanged": true,
+  "changed_objects": [
+    "Terrain_Berms_and_Unguarded_Drops",
+    "Road_Surface_Small_Concrete_2p7705m",
+    "Concrete_Visual_Joint_s9.00",
+    "Concrete_Visual_Joint_s12.00",
+    "Concrete_Visual_Joint_s15.00",
+    "Concrete_Visual_Joint_s18.00",
+    "Concrete_Visual_Joint_s28.03",
+    "Concrete_Visual_Joint_s31.03",
+    "Concrete_Visual_Joint_s34.03",
+    "Concrete_Visual_Joint_s45.06",
+    "Concrete_Visual_Joint_s48.06",
+    "Concrete_Visual_Joint_s51.06",
+    "Concrete_Visual_Joint_s54.06",
+    "Sparse_Grass_Clumps",
+    "Roadside_Rock_01",
+    "Roadside_Rock_02",
+    "Roadside_Rock_03",
+    "Roadside_Rock_04",
+    "Roadside_Rock_05",
+    "Roadside_Rock_06",
+    "Roadside_Rock_07",
+    "Roadside_Rock_08",
+    "Roadside_Rock_09",
+    "Roadside_Rock_10",
+    "Roadside_Rock_11",
+    "Roadside_Rock_12",
+    "Roadside_Rock_13",
+    "Roadside_Rock_14",
+    "Roadside_Rock_15",
+    "Roadside_Rock_16",
+    "Roadside_Rock_17",
+    "Roadside_Rock_18",
+    "Roadside_Rock_19",
+    "Roadside_Rock_20",
+    "Roadside_Rock_21",
+    "Roadside_Rock_22",
+    "Roadside_Rock_23",
+    "Roadside_Rock_24",
+    "Roadside_Rock_25",
+    "Roadside_Rock_26",
+    "Roadside_Rock_27",
+    "Roadside_Rock_28",
+    "Roadside_Rock_29",
+    "Roadside_Rock_30",
+    "Roadside_Rock_31",
+    "Roadside_Rock_32",
+    "Roadside_Rock_33",
+    "Roadside_Rock_34",
+    "Roadside_Rock_35",
+    "Roadside_Rock_36",
+    "Roadside_Rock_37",
+    "Roadside_Rock_38",
+    "Roadside_Rock_39",
+    "Roadside_Rock_40",
+    "Roadside_Rock_41",
+    "Roadside_Rock_42",
+    "Roadside_Rock_43"
+  ],
+  "beamng_package_updated": false
+}

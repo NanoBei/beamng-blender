@@ -1,0 +1,58 @@
+{
+  "source_scene": "/Users/macmini/work/active/beamng-blender/output/mountain_hairpin_road/blender_trial_v10_smooth_hairpins/road_trial_v10_smooth_hairpins.blend",
+  "main_width_m": 4.5,
+  "main_elevation_error_m": 0.0,
+  "small_straight_width_m": 2.7705,
+  "small_width_basis": "1.5 x 1.847 m body width, excluding mirrors",
+  "reference_car_measured_size_m": [
+    4.857999801635742,
+    1.8470001220703125,
+    1.4390000158450627
+  ],
+  "reference_car_world_position_m": [
+    7.5,
+    44.25,
+    0.0
+  ],
+  "reference_car_wheelbase_m": 2.908,
+  "drain_clear_width_m": 0.5,
+  "drain_depth_m": 0.6,
+  "drain_wall_thickness_trial_m": 0.12,
+  "guardrail_runs_x_m": [
+    [
+      0.0,
+      11.617231369018555
+    ],
+    [
+      20.676401138305664,
+      44.0
+    ]
+  ],
+  "road_mesh": {
+    "triangles": 18272,
+    "max_face_slope_deg": 22.218791024207402,
+    "faces_over_30deg": 0,
+    "area_over_30deg_m2": 0.0,
+    "max_slope_on_faces_over_1cm2_deg": 22.218791024207402
+  },
+  "shared_road_terrain_vertices": 2412,
+  "max_shared_boundary_error_m": 0.0,
+  "grass_clumps": 1113,
+  "hairpin_height_field": "unchanged from V10",
+  "beamng_package_updated": false,
+  "beamng_runtime_tested": false,
+  "curve_1": {
+    "triangles": 5388,
+    "max_face_slope_deg": 9.976275041810123,
+    "faces_over_30deg": 0,
+    "area_over_30deg_m2": 0.0,
+    "max_slope_on_faces_over_1cm2_deg": 9.976275041810123
+  },
+  "curve_2": {
+    "triangles": 5383,
+    "max_face_slope_deg": 10.531112957542435,
+    "faces_over_30deg": 0,
+    "area_over_30deg_m2": 0.0,
+    "max_slope_on_faces_over_1cm2_deg": 10.531112957542435
+  }
+}

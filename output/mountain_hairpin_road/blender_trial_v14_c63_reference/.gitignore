@@ -1,0 +1,5 @@
+# User-supplied Free3D personal-use mesh: keep source and derivative binaries local.
+source/
+*.blend
+*.blend1
+*.blend2

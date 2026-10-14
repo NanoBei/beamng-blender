@@ -1,0 +1,168 @@
+{
+  "source_blend_sha256": "1a144d39f38ebf275762fed9a9a5b92b9d40341416398d6ee83b243c7962c315",
+  "source_author": "wishingchain",
+  "source_url": "https://free3d.com/3d-model/mercedes-amg-c63-hi-poly-model-partially-rigged-805791.html",
+  "specification_url": "https://static.oneweb.mercedes-benz.com/css-oom-assets/en-lb/pdf/mercedes-amg-c-class-owners-manual-supplement-june-2018-1.pdf",
+  "target_dimensions_m": {
+    "length": 4.756,
+    "body_width": 1.839,
+    "mirror_width": 2.02,
+    "height": 1.426,
+    "wheelbase": 2.84
+  },
+  "source_axis": {
+    "forward": "-Y",
+    "up": "Z"
+  },
+  "correction": {
+    "lateral_scale": 0.7115844916543642,
+    "vertical_scale": 0.7373466628291687,
+    "longitudinal_source_stations": [
+      -1.0236890316009521,
+      0.0972033441066742,
+      3.9636276960372925,
+      5.406709671020508
+    ],
+    "target_X_stations": [
+      2.378,
+      1.524,
+      -1.316,
+      -2.378
+    ],
+    "mirror_outward_shift_m": 0.03403904024554305,
+    "wheel_driver_baked": true,
+    "subdivision": "source render level, baked"
+  },
+  "actual": {
+    "length_m": 4.75600004196167,
+    "body_width_m": 1.8389999866485596,
+    "width_including_mirrors_m": 2.0199999809265137,
+    "height_m": 1.4259999990463257,
+    "wheelbase_m": 2.8400000631809235,
+    "wheels": {
+      "C63_back__left_tire": {
+        "axle": "rear",
+        "center": [
+          -1.3160000145435333,
+          0.7002395689487457,
+          0.3251390755176544
+        ],
+        "ground_z": 0.0,
+        "radius_xz": [
+          0.3251337707042694,
+          0.3251390755176544
+        ]
+      },
+      "C63_back_right_tire": {
+        "axle": "rear",
+        "center": [
+          -1.3160000145435333,
+          -0.7002395689487457,
+          0.3251390755176544
+        ],
+        "ground_z": 0.0,
+        "radius_xz": [
+          0.3251337707042694,
+          0.3251390755176544
+        ]
+      },
+      "C63_Front_right_tire_": {
+        "axle": "front",
+        "center": [
+          1.5240000486373901,
+          -0.72930708527565,
+          0.32513904571533203
+        ],
+        "ground_z": 0.0,
+        "radius_xz": [
+          0.32513368129730225,
+          0.32513904571533203
+        ]
+      },
+      "C63_Front_left_tire": {
+        "axle": "front",
+        "center": [
+          1.5240000486373901,
+          0.7293069660663605,
+          0.32513904571533203
+        ],
+        "ground_z": 0.0,
+        "radius_xz": [
+          0.32513368129730225,
+          0.32513904571533203
+        ]
+      }
+    }
+  },
+  "static_reference_only": true,
+  "actual_in_road_scene": {
+    "length_m": 4.75600004196167,
+    "body_width_m": 1.8389999866485596,
+    "width_including_mirrors_m": 2.0199999809265137,
+    "height_m": 1.4259999990463257,
+    "wheelbase_m": 2.8400000631809235,
+    "wheels": {
+      "C63_back__left_tire": {
+        "axle": "rear",
+        "center": [
+          -1.3160000145435333,
+          0.7002395689487457,
+          0.3251390755176544
+        ],
+        "ground_z": 0.0,
+        "radius_xz": [
+          0.3251337707042694,
+          0.3251390755176544
+        ]
+      },
+      "C63_back_right_tire": {
+        "axle": "rear",
+        "center": [
+          -1.3160000145435333,
+          -0.7002395689487457,
+          0.3251390755176544
+        ],
+        "ground_z": 0.0,
+        "radius_xz": [
+          0.3251337707042694,
+          0.3251390755176544
+        ]
+      },
+      "C63_Front_right_tire_": {
+        "axle": "front",
+        "center": [
+          1.5240000486373901,
+          -0.72930708527565,
+          0.32513904571533203
+        ],
+        "ground_z": 0.0,
+        "radius_xz": [
+          0.32513368129730225,
+          0.32513904571533203
+        ]
+      },
+      "C63_Front_left_tire": {
+        "axle": "front",
+        "center": [
+          1.5240000486373901,
+          0.7293069660663605,
+          0.32513904571533203
+        ],
+        "ground_z": 0.0,
+        "radius_xz": [
+          0.32513368129730225,
+          0.32513904571533203
+        ]
+      }
+    }
+  },
+  "road_and_environment_unchanged": true,
+  "environment_mesh_objects_verified": 139,
+  "roads_m": {
+    "main": 4.5,
+    "small": 2.7705,
+    "small_to_car_body_width_ratio": 1.5065252854812399,
+    "small_centered_straight_clearance_per_side_body_m": 0.4657500000000001,
+    "small_centered_straight_clearance_per_side_mirrors_m": 0.3752500000000001
+  }
+}

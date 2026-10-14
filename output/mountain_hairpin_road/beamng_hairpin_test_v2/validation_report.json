@@ -1,0 +1,534 @@
+{
+  "concrete_joints.dae": {
+    "instances": 11,
+    "triangles": 22,
+    "bounds_min": [
+      18.457124710083008,
+      19.636226654052734,
+      -5.395030498504639
+    ],
+    "bounds_max": [
+      27.89414405822754,
+      41.435462951660156,
+      -0.07597486674785614
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "drainage.dae": {
+    "instances": 1,
+    "triangles": 28,
+    "bounds_min": [
+      -3.0,
+      46.5,
+      -0.7200000286102295
+    ],
+    "bounds_max": [
+      47.0,
+      47.2400016784668,
+      0.0
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "earth_sides.dae": {
+    "instances": 1,
+    "triangles": 284,
+    "bounds_min": [
+      -3.0,
+      42.0,
+      -25.0
+    ],
+    "bounds_max": [
+      47.0,
+      51.0,
+      1.350000023841858
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "guardrails_collision.dae": {
+    "instances": 13,
+    "triangles": 684,
+    "bounds_min": [
+      -11.661799430847168,
+      -0.07000000029802322,
+      -0.5400000214576721
+    ],
+    "bounds_max": [
+      11.661799430847168,
+      0.07000000029802322,
+      0.5400000214576721
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "guardrails_visual.dae": {
+    "instances": 63,
+    "triangles": 3836,
+    "bounds_min": [
+      -0.07999999821186066,
+      41.52000045776367,
+      -0.30000001192092896
+    ],
+    "bounds_max": [
+      44.08000183105469,
+      41.894500732421875,
+      0.8500000238418579
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "main_road.dae": {
+    "instances": 1,
+    "triangles": 2,
+    "bounds_min": [
+      0.0,
+      42.0,
+      0.0
+    ],
+    "bounds_max": [
+      44.0,
+      46.5,
+      0.0
+    ],
+    "parsed_by": "pycollada 0.9.3",
+    "min_upward_normal_z": 1
+  },
+  "roadside_rocks.dae": {
+    "instances": 43,
+    "triangles": 3246,
+    "bounds_min": [
+      17.521484375,
+      21.038389205932617,
+      -5.918486595153809
+    ],
+    "bounds_max": [
+      32.117244720458984,
+      40.72179412841797,
+      -0.41039273142814636
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "small_road.dae": {
+    "instances": 1,
+    "triangles": 18272,
+    "bounds_min": [
+      12.005908966064453,
+      17.929317474365234,
+      -6.101037502288818
+    ],
+    "bounds_max": [
+      31.65887451171875,
+      42.0,
+      0.0
+    ],
+    "parsed_by": "pycollada 0.9.3",
+    "min_upward_normal_z": 0.9257466197013855
+  },
+  "terrain.dae": {
+    "instances": 2,
+    "triangles": 28248,
+    "bounds_min": [
+      -3.0,
+      12.011651039123535,
+      -12.714936256408691
+    ],
+    "bounds_max": [
+      47.0,
+      51.0,
+      1.3610135316848755
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "vegetation.dae": {
+    "instances": 1,
+    "triangles": 6069,
+    "bounds_min": [
+      -2.888007164001465,
+      19.082569122314453,
+      -5.8201470375061035
+    ],
+    "bounds_max": [
+      46.77079772949219,
+      50.99818801879883,
+      1.5942223072052002
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "terrain_texture": {
+    "size": [
+      2048,
+      2048
+    ],
+    "rgb_min": [
+      0,
+      0,
+      0
+    ],
+    "rgb_max": [
+      149,
+      135,
+      96
+    ]
+  },
+  "rock_collision_audit": [
+    {
+      "geometry": "roadside_rocks_00-mesh",
+      "closed": true,
+      "volume_m3": 0.07832011773611865,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.08683154076599786
+    },
+    {
+      "geometry": "roadside_rocks_01-mesh",
+      "closed": true,
+      "volume_m3": 0.04810447683588196,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.15105930808105872
+    },
+    {
+      "geometry": "roadside_rocks_02-mesh",
+      "closed": true,
+      "volume_m3": 0.04178371577210743,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.12517485555961771
+    },
+    {
+      "geometry": "roadside_rocks_03-mesh",
+      "closed": true,
+      "volume_m3": 0.07519599450648373,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.1795577105238242
+    },
+    {
+      "geometry": "roadside_rocks_04-mesh",
+      "closed": true,
+      "volume_m3": 0.09594687622312521,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.2993271966529769
+    },
+    {
+      "geometry": "roadside_rocks_05-mesh",
+      "closed": true,
+      "volume_m3": 0.06984633895225197,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.05861659235894834
+    },
+    {
+      "geometry": "roadside_rocks_06-mesh",
+      "closed": true,
+      "volume_m3": 0.08325128068298548,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.17140806537229647
+    },
+    {
+      "geometry": "roadside_rocks_07-mesh",
+      "closed": true,
+      "volume_m3": 0.05644638141384706,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.2236639813918586
+    },
+    {
+      "geometry": "roadside_rocks_08-mesh",
+      "closed": true,
+      "volume_m3": 0.09013314662365701,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.29117361669261843
+    },
+    {
+      "geometry": "roadside_rocks_09-mesh",
+      "closed": true,
+      "volume_m3": 0.053418842878267515,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.18496811832696292
+    },
+    {
+      "geometry": "roadside_rocks_10-mesh",
+      "closed": true,
+      "volume_m3": 0.09071485103111347,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.2514348990229873
+    },
+    {
+      "geometry": "roadside_rocks_11-mesh",
+      "closed": true,
+      "volume_m3": 0.11552885938407938,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.21102139418296773
+    },
+    {
+      "geometry": "roadside_rocks_12-mesh",
+      "closed": true,
+      "volume_m3": 0.07171098617737197,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.12287143779570986
+    },
+    {
+      "geometry": "roadside_rocks_13-mesh",
+      "closed": true,
+      "volume_m3": 0.06896690137304155,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.23730605449928
+    },
+    {
+      "geometry": "roadside_rocks_14-mesh",
+      "closed": true,
+      "volume_m3": 0.1009969441487965,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.2525974171870704
+    },
+    {
+      "geometry": "roadside_rocks_15-mesh",
+      "closed": true,
+      "volume_m3": 0.04611902198508466,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.12574741968585634
+    },
+    {
+      "geometry": "roadside_rocks_16-mesh",
+      "closed": true,
+      "volume_m3": 0.03889654968309323,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.20875224776618495
+    },
+    {
+      "geometry": "roadside_rocks_17-mesh",
+      "closed": true,
+      "volume_m3": 0.05795133379113956,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.15659037567966339
+    },
+    {
+      "geometry": "roadside_rocks_18-mesh",
+      "closed": true,
+      "volume_m3": 0.0675213713993515,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.2199178353601705
+    },
+    {
+      "geometry": "roadside_rocks_19-mesh",
+      "closed": true,
+      "volume_m3": 0.08762882825698493,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.1432156731532941
+    },
+    {
+      "geometry": "roadside_rocks_20-mesh",
+      "closed": true,
+      "volume_m3": 0.06414745493043379,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.15054322527093245
+    },
+    {
+      "geometry": "roadside_rocks_21-mesh",
+      "closed": true,
+      "volume_m3": 0.09526003377481025,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.17518615078046107
+    },
+    {
+      "geometry": "roadside_rocks_22-mesh",
+      "closed": true,
+      "volume_m3": 0.05288816303512315,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.06937932346871767
+    },
+    {
+      "geometry": "roadside_rocks_23-mesh",
+      "closed": true,
+      "volume_m3": 0.07051717030995608,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.2517350468143742
+    },
+    {
+      "geometry": "roadside_rocks_24-mesh",
+      "closed": true,
+      "volume_m3": 0.05301283079499434,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.03993560184688549
+    },
+    {
+      "geometry": "roadside_rocks_25-mesh",
+      "closed": true,
+      "volume_m3": 0.03893518592056492,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.17135739413939266
+    },
+    {
+      "geometry": "roadside_rocks_26-mesh",
+      "closed": true,
+      "volume_m3": 0.06775953768167324,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.08368257464060758
+    },
+    {
+      "geometry": "roadside_rocks_27-mesh",
+      "closed": true,
+      "volume_m3": 0.08468709780972501,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.16444645448718354
+    },
+    {
+      "geometry": "roadside_rocks_28-mesh",
+      "closed": true,
+      "volume_m3": 0.05382625073599815,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.0917791440991711
+    },
+    {
+      "geometry": "roadside_rocks_29-mesh",
+      "closed": true,
+      "volume_m3": 0.10352327383996045,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.10698837121616811
+    },
+    {
+      "geometry": "roadside_rocks_30-mesh",
+      "closed": true,
+      "volume_m3": 0.06503282496488343,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.052064623007917143
+    },
+    {
+      "geometry": "roadside_rocks_31-mesh",
+      "closed": true,
+      "volume_m3": 0.10898734011445994,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.08650030417695853
+    },
+    {
+      "geometry": "roadside_rocks_32-mesh",
+      "closed": true,
+      "volume_m3": 0.07356212950740648,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.13221146300932696
+    },
+    {
+      "geometry": "roadside_rocks_33-mesh",
+      "closed": true,
+      "volume_m3": 0.04011660334635048,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.07795805193468497
+    },
+    {
+      "geometry": "roadside_rocks_34-mesh",
+      "closed": true,
+      "volume_m3": 0.07693830208994042,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.08872502166374518
+    },
+    {
+      "geometry": "roadside_rocks_35-mesh",
+      "closed": true,
+      "volume_m3": 0.0579343255250484,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.004503497351773467
+    },
+    {
+      "geometry": "roadside_rocks_36-mesh",
+      "closed": true,
+      "volume_m3": 0.05259465403189589,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.09628557690430473
+    },
+    {
+      "geometry": "roadside_rocks_37-mesh",
+      "closed": true,
+      "volume_m3": 0.07614093887394002,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.2091293734344788
+    },
+    {
+      "geometry": "roadside_rocks_38-mesh",
+      "closed": true,
+      "volume_m3": 0.05557422176495386,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.17289381537033033
+    },
+    {
+      "geometry": "roadside_rocks_39-mesh",
+      "closed": true,
+      "volume_m3": 0.05588818773610164,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.2183369999454905
+    },
+    {
+      "geometry": "roadside_rocks_40-mesh",
+      "closed": true,
+      "volume_m3": 0.04840091956794912,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.18213561466054884
+    },
+    {
+      "geometry": "roadside_rocks_41-mesh",
+      "closed": true,
+      "volume_m3": 0.054317304120901556,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.24211355471946877
+    },
+    {
+      "geometry": "roadside_rocks_42-mesh",
+      "closed": true,
+      "volume_m3": 0.03938888894471334,
+      "pavement_overlap_m2": 0,
+      "height_above_soil_at_center_m": 0.10285001030922075
+    }
+  ],
+  "visibly_exposed_rock_centres": 42,
+  "cliff_drop_samples_m": [
+    0.8605411787080821,
+    1.2972388603187168,
+    1.66031535009056,
+    1.5509835383543535,
+    1.7099616281038377,
+    1.7106837179910577,
+    1.6571057133059766,
+    1.4660965419829055,
+    1.5757595699294646,
+    1.5501928922482282,
+    2.017026781131913,
+    1.7908624322033515,
+    0.8261272414994258,
+    0.501028174468003,
+    1.5876872764298016,
+    2.0686828834506485,
+    1.758995619424911,
+    1.7855593498994002,
+    1.922662528559946,
+    2.049642488980469,
+    1.9297014112126867,
+    1.6026041802249429,
+    1.3897166308918303,
+    1.82863662613061,
+    1.741558455319093,
+    1.622098628798983,
+    1.773806161165706,
+    1.7664641093310092,
+    1.7881714729696556,
+    1.7679878439543764,
+    1.7358887838272619,
+    1.501078279682555,
+    1.810544293341719,
+    1.3806839661997046
+  ],
+  "collision_triangles": 50480,
+  "archive_files": [
+    "levels/tight_hairpin_drive_v2/README_zh.txt",
+    "levels/tight_hairpin_drive_v2/art/shapes/concrete_joints.dae",
+    "levels/tight_hairpin_drive_v2/art/shapes/drainage.dae",
+    "levels/tight_hairpin_drive_v2/art/shapes/earth_sides.dae",
+    "levels/tight_hairpin_drive_v2/art/shapes/guardrails_collision.dae",
+    "levels/tight_hairpin_drive_v2/art/shapes/guardrails_visual.dae",
+    "levels/tight_hairpin_drive_v2/art/shapes/main_road.dae",
+    "levels/tight_hairpin_drive_v2/art/shapes/roadside_rocks.dae",
+    "levels/tight_hairpin_drive_v2/art/shapes/small_road.dae",
+    "levels/tight_hairpin_drive_v2/art/shapes/terrain.dae",
+    "levels/tight_hairpin_drive_v2/art/shapes/vegetation.dae",
+    "levels/tight_hairpin_drive_v2/art/textures/road.color.png",
+    "levels/tight_hairpin_drive_v2/art/textures/terrain.color.png",
+    "levels/tight_hairpin_drive_v2/groundModels/hairpin_dry_concrete.json",
+    "levels/tight_hairpin_drive_v2/info.json",
+    "levels/tight_hairpin_drive_v2/main/items.level.json",
+    "levels/tight_hairpin_drive_v2/main.materials.json",
+    "levels/tight_hairpin_drive_v2/preview.jpg"
+  ],
+  "zip_bytes": 4727868,
+  "sha256": "218162c76a222b692baf9f2ff058de8e3aacf46ed17821e771206be84ad37762",
+  "beamng_runtime_tested": false
+}

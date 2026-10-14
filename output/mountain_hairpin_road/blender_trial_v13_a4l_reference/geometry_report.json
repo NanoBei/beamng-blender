@@ -1,0 +1,55 @@
+{
+  "source": "/Users/macmini/work/active/beamng-blender/output/mountain_hairpin_road/blender_trial_v12_driving_edges/road_trial_v12_driving_edges.blend",
+  "note": "Original simplified A4L exterior; styling approximate; static reference only",
+  "body_bounds_without_mirrors_m": {
+    "min": [
+      -2.428999662399292,
+      -0.923503041267395,
+      0.0
+    ],
+    "max": [
+      2.428999662399292,
+      0.923503041267395,
+      1.4390000104904175
+    ],
+    "size": [
+      4.857999324798584,
+      1.84700608253479,
+      1.4390000104904175
+    ]
+  },
+  "full_bounds_with_trial_mirrors_m": {
+    "min": [
+      -2.428999662399292,
+      -1.0338449478149414,
+      0.0
+    ],
+    "max": [
+      2.428999662399292,
+      1.0338449478149414,
+      1.4390000104904175
+    ],
+    "size": [
+      4.857999324798584,
+      2.067689895629883,
+      1.4390000104904175
+    ]
+  },
+  "target_length_width_height_m": [
+    4.858,
+    1.847,
+    1.439
+  ],
+  "wheelbase_m": 2.908,
+  "axle_centers_m": {
+    "rear": -1.386,
+    "front": 1.522
+  },
+  "front_overhang_m": 0.907,
+  "rear_overhang_m": 1.043,
+  "road_and_environment_unchanged": true,
+  "environment_mesh_objects_verified": 139,
+  "car_objects": 369,
+  "third_party_meshes_used": false,
+  "drivable_beamng_vehicle": false
+}

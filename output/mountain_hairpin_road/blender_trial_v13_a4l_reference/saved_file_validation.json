@@ -1,0 +1,48 @@
+{
+  "road_trial_v13_a4l_reference.blend": {
+    "scene": "Scene",
+    "location": [
+      7.5,
+      44.25,
+      0.0
+    ],
+    "actual_body_dimensions_m": [
+      4.857999324798584,
+      1.84700608253479,
+      1.4390000104904175
+    ],
+    "actual_wheelbase_m": 2.9079999923706055,
+    "tyre_ground_heights_m": {
+      "A4L13_Tyre_Rear_-1": 0.0,
+      "A4L13_Tyre_Rear_1": 0.0,
+      "A4L13_Tyre_Front_-1": 0.0,
+      "A4L13_Tyre_Front_1": 0.0
+    },
+    "road_objects": 2,
+    "car_evaluated_triangles": 51156,
+    "passed": true
+  },
+  "audi_a4l_reference_asset.blend": {
+    "scene": "Audi_A4L_Reference_Only",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "actual_body_dimensions_m": [
+      4.857999801635742,
+      1.8470025062561035,
+      1.4390000104904175
+    ],
+    "actual_wheelbase_m": 2.9079999923706055,
+    "tyre_ground_heights_m": {
+      "A4L13_Tyre_Rear_-1": 0.0,
+      "A4L13_Tyre_Rear_1": 0.0,
+      "A4L13_Tyre_Front_-1": 0.0,
+      "A4L13_Tyre_Front_1": 0.0
+    },
+    "road_objects": 0,
+    "car_evaluated_triangles": 51156,
+    "passed": true
+  }
+}

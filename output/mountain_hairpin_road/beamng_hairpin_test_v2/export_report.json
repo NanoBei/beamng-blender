@@ -1,0 +1,1808 @@
+{
+  "source_blend": "/Users/macmini/work/active/beamng-blender/output/mountain_hairpin_road/blender_trial_v12_driving_edges/road_trial_v12_driving_edges.blend",
+  "units": "meters",
+  "up_axis": "Z_UP",
+  "collision_mode": "Visible Mesh Final (intentional exact surface for small test map)",
+  "beamng_runtime_tested": false,
+  "assets": {
+    "main_road": [
+      {
+        "object": "Road_Surface_Main_Asphalt_4p5m",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      }
+    ],
+    "small_road": [
+      {
+        "object": "Road_Surface_Small_Concrete_2p7705m",
+        "vertices": 10384,
+        "triangles": 18272,
+        "degenerate_removed": 0
+      }
+    ],
+    "terrain": [
+      {
+        "object": "Terrain_Berms_and_Unguarded_Drops",
+        "vertices": 13790,
+        "triangles": 25048,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Drainage_Outer_Vegetated_Bank",
+        "vertices": 1717,
+        "triangles": 3200,
+        "degenerate_removed": 0
+      }
+    ],
+    "drainage": [
+      {
+        "object": "Drainage_Channel_Clear_0p50m_Deep_0p60m",
+        "vertices": 16,
+        "triangles": 28,
+        "degenerate_removed": 0
+      }
+    ],
+    "roadside_rocks": [
+      {
+        "object": "Roadside_Rock_01",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_02",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_03",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_04",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_05",
+        "vertices": 38,
+        "triangles": 72,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_06",
+        "vertices": 39,
+        "triangles": 74,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_07",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_08",
+        "vertices": 42,
+        "triangles": 80,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_09",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_10",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_11",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_12",
+        "vertices": 38,
+        "triangles": 72,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_13",
+        "vertices": 39,
+        "triangles": 74,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_14",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_15",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_16",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_17",
+        "vertices": 38,
+        "triangles": 72,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_18",
+        "vertices": 37,
+        "triangles": 70,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_19",
+        "vertices": 39,
+        "triangles": 74,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_20",
+        "vertices": 39,
+        "triangles": 74,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_21",
+        "vertices": 38,
+        "triangles": 72,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_22",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_23",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_24",
+        "vertices": 42,
+        "triangles": 80,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_25",
+        "vertices": 38,
+        "triangles": 72,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_26",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_27",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_28",
+        "vertices": 39,
+        "triangles": 74,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_29",
+        "vertices": 39,
+        "triangles": 74,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_30",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_31",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_32",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_33",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_34",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_35",
+        "vertices": 37,
+        "triangles": 70,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_36",
+        "vertices": 39,
+        "triangles": 74,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_37",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_38",
+        "vertices": 40,
+        "triangles": 76,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_39",
+        "vertices": 39,
+        "triangles": 74,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_40",
+        "vertices": 42,
+        "triangles": 80,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_41",
+        "vertices": 38,
+        "triangles": 72,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_42",
+        "vertices": 39,
+        "triangles": 74,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Roadside_Rock_43",
+        "vertices": 41,
+        "triangles": 78,
+        "degenerate_removed": 0
+      }
+    ],
+    "guardrails_visual": [
+      {
+        "object": "Guardrail_Bolt_1_0",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_1_0.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_1_1",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_1_1.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_1_2",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_1_2.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_1_3",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_1_3.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_0",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_0.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_1",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_1.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_2",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_2.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_3",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_3.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_4",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_4.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_5",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_5.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_6",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Bolt_2_6.001",
+        "vertices": 12,
+        "triangles": 20,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_End_Cap_1",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_End_Cap_1.001",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_End_Cap_2",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_End_Cap_2.001",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_1_0",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_1_1",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_1_2",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_1_3",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_2_0",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_2_1",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_2_2",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_2_3",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_2_4",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_2_5",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Post_2_6",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Reflector_1_0",
+        "vertices": 56,
+        "triangles": 84,
+        "degenerate_removed": 24
+      },
+      {
+        "object": "Guardrail_Reflector_1_2",
+        "vertices": 56,
+        "triangles": 84,
+        "degenerate_removed": 24
+      },
+      {
+        "object": "Guardrail_Reflector_2_0",
+        "vertices": 56,
+        "triangles": 84,
+        "degenerate_removed": 24
+      },
+      {
+        "object": "Guardrail_Reflector_2_2",
+        "vertices": 56,
+        "triangles": 84,
+        "degenerate_removed": 24
+      },
+      {
+        "object": "Guardrail_Reflector_2_4",
+        "vertices": 56,
+        "triangles": 84,
+        "degenerate_removed": 24
+      },
+      {
+        "object": "Guardrail_Reflector_2_6",
+        "vertices": 56,
+        "triangles": 84,
+        "degenerate_removed": 24
+      },
+      {
+        "object": "Guardrail_Spacer_1_0",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_1_1",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_1_2",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_1_3",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_2_0",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_2_1",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_2_2",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_2_3",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_2_4",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_2_5",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_Spacer_2_6",
+        "vertices": 56,
+        "triangles": 108,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_WBeam_1_0",
+        "vertices": 36,
+        "triangles": 68,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_WBeam_1_1",
+        "vertices": 36,
+        "triangles": 68,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_WBeam_1_2",
+        "vertices": 36,
+        "triangles": 68,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_WBeam_2_0",
+        "vertices": 36,
+        "triangles": 68,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_WBeam_2_1",
+        "vertices": 36,
+        "triangles": 68,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_WBeam_2_2",
+        "vertices": 36,
+        "triangles": 68,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_WBeam_2_3",
+        "vertices": 36,
+        "triangles": 68,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_WBeam_2_4",
+        "vertices": 36,
+        "triangles": 68,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Guardrail_WBeam_2_5",
+        "vertices": 36,
+        "triangles": 68,
+        "degenerate_removed": 0
+      }
+    ],
+    "guardrails_collision": [
+      {
+        "object": "COL_Guardrail_Beam_1",
+        "vertices": 8,
+        "triangles": 12,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Beam_2",
+        "vertices": 8,
+        "triangles": 12,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_1_0",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_1_1",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_1_2",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_1_3",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_2_0",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_2_1",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_2_2",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_2_3",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_2_4",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_2_5",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "COL_Guardrail_Post_2_6",
+        "vertices": 32,
+        "triangles": 60,
+        "degenerate_removed": 0
+      }
+    ],
+    "vegetation": [
+      {
+        "object": "Sparse_Grass_Clumps",
+        "vertices": 18207,
+        "triangles": 6069,
+        "degenerate_removed": 0
+      }
+    ],
+    "concrete_joints": [
+      {
+        "object": "Concrete_Visual_Joint_s9.00",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s12.00",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s15.00",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s18.00",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s28.03",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s31.03",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s34.03",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s45.06",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s48.06",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s51.06",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Concrete_Visual_Joint_s54.06",
+        "vertices": 4,
+        "triangles": 2,
+        "degenerate_removed": 0
+      }
+    ],
+    "earth_sides": [
+      {
+        "object": "Terrain_Block_Sides",
+        "vertices": 600,
+        "triangles": 284,
+        "degenerate_removed": 16
+      }
+    ]
+  },
+  "source_parameters": {
+    "source_scene": "/Users/macmini/work/active/beamng-blender/output/mountain_hairpin_road/blender_trial_v11_road_details/road_trial_v11_road_details.blend",
+    "road_geometry_unchanged": true,
+    "road_geometry_sha256": "a123449eb21cf978c1fb84b12fc73ee2210c793dfd446a052c4edef8a6e132dd",
+    "main_geometry_unchanged": true,
+    "shared_edge_vertices_pinned": 2412,
+    "terrain_vertices_raised": 1663,
+    "terrain_vertices_lowered": 1164,
+    "nominal_small_width_m": 2.7705,
+    "main_width_m": 4.5,
+    "rock_count": 43,
+    "rock_height_trial_range_m": [
+      0.23,
+      0.4
+    ],
+    "earth_toe_trial_height_m": 0.18,
+    "rock_geometry_checks": [
+      {
+        "object": "Roadside_Rock_01",
+        "closed": true,
+        "signed_volume_m3": 0.07832011773611317,
+        "top_hit": [
+          26.675594329833984,
+          33.16653823852539,
+          -1.7656917572021484
+        ]
+      },
+      {
+        "object": "Roadside_Rock_02",
+        "closed": true,
+        "signed_volume_m3": 0.04810447683587628,
+        "top_hit": [
+          25.443376541137695,
+          32.854339599609375,
+          -1.8842658996582031
+        ]
+      },
+      {
+        "object": "Roadside_Rock_03",
+        "closed": true,
+        "signed_volume_m3": 0.04178371577211525,
+        "top_hit": [
+          24.49081039428711,
+          32.6843147277832,
+          -2.128446578979492
+        ]
+      },
+      {
+        "object": "Roadside_Rock_04",
+        "closed": true,
+        "signed_volume_m3": 0.0751959945064904,
+        "top_hit": [
+          23.113924026489258,
+          32.47738265991211,
+          -2.2611446380615234
+        ]
+      },
+      {
+        "object": "Roadside_Rock_05",
+        "closed": true,
+        "signed_volume_m3": 0.0959468762231211,
+        "top_hit": [
+          22.104801177978516,
+          32.30976104736328,
+          -2.4202404022216797
+        ]
+      },
+      {
+        "object": "Roadside_Rock_06",
+        "closed": true,
+        "signed_volume_m3": 0.06984633895225269,
+        "top_hit": [
+          20.98635482788086,
+          32.16505432128906,
+          -2.7314987182617188
+        ]
+      },
+      {
+        "object": "Roadside_Rock_07",
+        "closed": true,
+        "signed_volume_m3": 0.08325128068298554,
+        "top_hit": [
+          19.437969207763672,
+          31.81161117553711,
+          -2.827657699584961
+        ]
+      },
+      {
+        "object": "Roadside_Rock_08",
+        "closed": true,
+        "signed_volume_m3": 0.05644638141384482,
+        "top_hit": [
+          18.391990661621094,
+          31.66716194152832,
+          -2.8707427978515625
+        ]
+      },
+      {
+        "object": "Roadside_Rock_09",
+        "closed": true,
+        "signed_volume_m3": 0.0901331466236539,
+        "top_hit": [
+          30.232097625732422,
+          21.299571990966797,
+          -5.415971755981445
+        ]
+      },
+      {
+        "object": "Roadside_Rock_10",
+        "closed": true,
+        "signed_volume_m3": 0.05341884287827066,
+        "top_hit": [
+          29.373022079467773,
+          21.669973373413086,
+          -5.350927352905273
+        ]
+      },
+      {
+        "object": "Roadside_Rock_11",
+        "closed": true,
+        "signed_volume_m3": 0.09071485103112026,
+        "top_hit": [
+          28.424461364746094,
+          22.170751571655273,
+          -5.056852340698242
+        ]
+      },
+      {
+        "object": "Roadside_Rock_12",
+        "closed": true,
+        "signed_volume_m3": 0.11552885938408039,
+        "top_hit": [
+          27.402944564819336,
+          22.672204971313477,
+          -4.848480224609375
+        ]
+      },
+      {
+        "object": "Roadside_Rock_13",
+        "closed": true,
+        "signed_volume_m3": 0.07171098617737512,
+        "top_hit": [
+          26.56711769104004,
+          23.045860290527344,
+          -4.776533126831055
+        ]
+      },
+      {
+        "object": "Roadside_Rock_14",
+        "closed": true,
+        "signed_volume_m3": 0.06896690137304397,
+        "top_hit": [
+          25.320919036865234,
+          23.627729415893555,
+          -4.5082855224609375
+        ]
+      },
+      {
+        "object": "Roadside_Rock_15",
+        "closed": true,
+        "signed_volume_m3": 0.10099694414879525,
+        "top_hit": [
+          24.395248413085938,
+          24.000194549560547,
+          -4.301549911499023
+        ]
+      },
+      {
+        "object": "Roadside_Rock_16",
+        "closed": true,
+        "signed_volume_m3": 0.046119021985084836,
+        "top_hit": [
+          23.050649642944336,
+          24.635622024536133,
+          -4.153980255126953
+        ]
+      },
+      {
+        "object": "Roadside_Rock_17",
+        "closed": true,
+        "signed_volume_m3": 0.03889654968309415,
+        "top_hit": [
+          21.796802520751953,
+          25.16875457763672,
+          -3.8361244201660156
+        ]
+      },
+      {
+        "object": "Roadside_Rock_18",
+        "closed": true,
+        "signed_volume_m3": 0.05795133379113799,
+        "top_hit": [
+          21.03527069091797,
+          25.57145118713379,
+          -3.7217941284179688
+        ]
+      },
+      {
+        "object": "Roadside_Rock_19",
+        "closed": true,
+        "signed_volume_m3": 0.0675213713993535,
+        "top_hit": [
+          20.196552276611328,
+          26.014591217041016,
+          -3.4492549896240234
+        ]
+      },
+      {
+        "object": "Roadside_Rock_20",
+        "closed": true,
+        "signed_volume_m3": 0.08762882825698495,
+        "top_hit": [
+          18.93236541748047,
+          26.6113224029541,
+          -3.3253116607666016
+        ]
+      },
+      {
+        "object": "Roadside_Rock_21",
+        "closed": true,
+        "signed_volume_m3": 0.0641474549304351,
+        "top_hit": [
+          17.835010528564453,
+          27.414342880249023,
+          -3.292459487915039
+        ]
+      },
+      {
+        "object": "Roadside_Rock_22",
+        "closed": true,
+        "signed_volume_m3": 0.09526003377480484,
+        "top_hit": [
+          18.324995040893555,
+          28.257436752319336,
+          -3.090574264526367
+        ]
+      },
+      {
+        "object": "Roadside_Rock_23",
+        "closed": true,
+        "signed_volume_m3": 0.05288816303512009,
+        "top_hit": [
+          19.855480194091797,
+          28.531627655029297,
+          -3.0020008087158203
+        ]
+      },
+      {
+        "object": "Roadside_Rock_24",
+        "closed": true,
+        "signed_volume_m3": 0.07051717030995461,
+        "top_hit": [
+          20.7924747467041,
+          28.76496696472168,
+          -2.7079010009765625
+        ]
+      },
+      {
+        "object": "Roadside_Rock_25",
+        "closed": true,
+        "signed_volume_m3": 0.05301283079498411,
+        "top_hit": [
+          22.04233169555664,
+          28.92040252685547,
+          -2.6261138916015625
+        ]
+      },
+      {
+        "object": "Roadside_Rock_26",
+        "closed": true,
+        "signed_volume_m3": 0.03893518592056654,
+        "top_hit": [
+          23.00884437561035,
+          29.121671676635742,
+          -2.4180564880371094
+        ]
+      },
+      {
+        "object": "Roadside_Rock_27",
+        "closed": true,
+        "signed_volume_m3": 0.06775953768167607,
+        "top_hit": [
+          24.43899917602539,
+          29.364978790283203,
+          -2.175882339477539
+        ]
+      },
+      {
+        "object": "Roadside_Rock_28",
+        "closed": true,
+        "signed_volume_m3": 0.08468709780972292,
+        "top_hit": [
+          25.463869094848633,
+          29.499610900878906,
+          -1.9891891479492188
+        ]
+      },
+      {
+        "object": "Roadside_Rock_29",
+        "closed": true,
+        "signed_volume_m3": 0.05382625073599767,
+        "top_hit": [
+          26.762121200561523,
+          29.799978256225586,
+          -1.9239540100097656
+        ]
+      },
+      {
+        "object": "Roadside_Rock_30",
+        "closed": true,
+        "signed_volume_m3": 0.10352327383995862,
+        "top_hit": [
+          28.014604568481445,
+          29.924650192260742,
+          -1.7887458801269531
+        ]
+      },
+      {
+        "object": "Roadside_Rock_31",
+        "closed": true,
+        "signed_volume_m3": 0.06503282496487904,
+        "top_hit": [
+          29.326454162597656,
+          30.18612289428711,
+          -1.7763404846191406
+        ]
+      },
+      {
+        "object": "Roadside_Rock_32",
+        "closed": true,
+        "signed_volume_m3": 0.10898734011446107,
+        "top_hit": [
+          30.92937469482422,
+          31.183990478515625,
+          -1.7058353424072266
+        ]
+      },
+      {
+        "object": "Roadside_Rock_33",
+        "closed": true,
+        "signed_volume_m3": 0.0735621295074005,
+        "top_hit": [
+          31.607149124145508,
+          32.07292556762695,
+          -1.5736618041992188
+        ]
+      },
+      {
+        "object": "Roadside_Rock_34",
+        "closed": true,
+        "signed_volume_m3": 0.040116603346351226,
+        "top_hit": [
+          31.906333923339844,
+          33.656471252441406,
+          -1.5775279998779297
+        ]
+      },
+      {
+        "object": "Roadside_Rock_35",
+        "closed": true,
+        "signed_volume_m3": 0.0769383020899307,
+        "top_hit": [
+          31.844146728515625,
+          34.769309997558594,
+          -1.4640026092529297
+        ]
+      },
+      {
+        "object": "Roadside_Rock_36",
+        "closed": true,
+        "signed_volume_m3": 0.05793432552504213,
+        "top_hit": [
+          31.36473846435547,
+          35.85776138305664,
+          -1.4729804992675781
+        ]
+      },
+      {
+        "object": "Roadside_Rock_37",
+        "closed": true,
+        "signed_volume_m3": 0.05259465403189062,
+        "top_hit": [
+          29.887304306030273,
+          36.95273971557617,
+          -1.3798656463623047
+        ]
+      },
+      {
+        "object": "Roadside_Rock_38",
+        "closed": true,
+        "signed_volume_m3": 0.07614093887393875,
+        "top_hit": [
+          28.436357498168945,
+          37.66153335571289,
+          -1.3199787139892578
+        ]
+      },
+      {
+        "object": "Roadside_Rock_39",
+        "closed": true,
+        "signed_volume_m3": 0.055574221764961435,
+        "top_hit": [
+          26.992708206176758,
+          38.3739013671875,
+          -1.2445545196533203
+        ]
+      },
+      {
+        "object": "Roadside_Rock_40",
+        "closed": true,
+        "signed_volume_m3": 0.055888187736111705,
+        "top_hit": [
+          25.687252044677734,
+          39.00012969970703,
+          -0.9595432281494141
+        ]
+      },
+      {
+        "object": "Roadside_Rock_41",
+        "closed": true,
+        "signed_volume_m3": 0.04840091956795195,
+        "top_hit": [
+          24.234512329101562,
+          39.62445068359375,
+          -0.7571220397949219
+        ]
+      },
+      {
+        "object": "Roadside_Rock_42",
+        "closed": true,
+        "signed_volume_m3": 0.054317304120904644,
+        "top_hit": [
+          23.32404136657715,
+          40.05317687988281,
+          -0.4848194122314453
+        ]
+      },
+      {
+        "object": "Roadside_Rock_43",
+        "closed": true,
+        "signed_volume_m3": 0.0393888889447121,
+        "top_hit": [
+          22.381591796875,
+          40.52021026611328,
+          -0.41123199462890625
+        ]
+      }
+    ],
+    "cliff_ray_checks": [
+      {
+        "edge": [
+          14.329808235168457,
+          40.917781829833984,
+          -0.01260865293443203
+        ],
+        "sample_xy": [
+          14.182173728942871,
+          40.600440979003906
+        ],
+        "drop_before_m": 0.32886206544935703,
+        "drop_after_m": 0.860539311543107
+      },
+      {
+        "edge": [
+          15.417719841003418,
+          40.411376953125,
+          -0.03053652122616768
+        ],
+        "sample_xy": [
+          15.269923210144043,
+          40.094112396240234
+        ],
+        "drop_before_m": 0.32136548683047295,
+        "drop_after_m": 1.2972394339740276
+      },
+      {
+        "edge": [
+          16.505348205566406,
+          39.90435791015625,
+          -0.0839284211397171
+        ],
+        "sample_xy": [
+          16.357437133789062,
+          39.5871467590332
+        ],
+        "drop_before_m": 0.2802359312772751,
+        "drop_after_m": 1.660313293337822
+      },
+      {
+        "edge": [
+          17.592918395996094,
+          39.397220611572266,
+          -0.1770898997783661
+        ],
+        "sample_xy": [
+          17.445005416870117,
+          39.08000946044922
+        ],
+        "drop_before_m": 0.37784555554389954,
+        "drop_after_m": 1.5509813129901886
+      },
+      {
+        "edge": [
+          18.68048858642578,
+          38.890079498291016,
+          -0.3106832802295685
+        ],
+        "sample_xy": [
+          18.53257179260254,
+          38.572872161865234
+        ],
+        "drop_before_m": 0.28372856974601746,
+        "drop_after_m": 1.709961861371994
+      },
+      {
+        "edge": [
+          19.768056869506836,
+          38.3829345703125,
+          -0.48658543825149536
+        ],
+        "sample_xy": [
+          19.62013816833496,
+          38.06572723388672
+        ],
+        "drop_before_m": 0.3675824999809265,
+        "drop_after_m": 1.7106820940971375
+      },
+      {
+        "edge": [
+          20.85562515258789,
+          37.87579345703125,
+          -0.6956817507743835
+        ],
+        "sample_xy": [
+          20.707712173461914,
+          37.5585823059082
+        ],
+        "drop_before_m": 0.30858689546585083,
+        "drop_after_m": 1.657107174396515
+      },
+      {
+        "edge": [
+          21.943195343017578,
+          37.36865234375,
+          -0.9072740077972412
+        ],
+        "sample_xy": [
+          21.7952823638916,
+          37.05144119262695
+        ],
+        "drop_before_m": 0.3177835941314697,
+        "drop_after_m": 1.4660933017730713
+      },
+      {
+        "edge": [
+          23.030765533447266,
+          36.86151123046875,
+          -1.1188664436340332
+        ],
+        "sample_xy": [
+          22.882848739624023,
+          36.54430389404297
+        ],
+        "drop_before_m": 0.27897024154663086,
+        "drop_after_m": 1.5757594108581543
+      },
+      {
+        "edge": [
+          24.118335723876953,
+          36.3543701171875,
+          -1.3304691314697266
+        ],
+        "sample_xy": [
+          23.97041893005371,
+          36.03716278076172
+        ],
+        "drop_before_m": 0.41403770446777344,
+        "drop_after_m": 1.5501937866210938
+      },
+      {
+        "edge": [
+          25.205904006958008,
+          35.847225189208984,
+          -1.5445778369903564
+        ],
+        "sample_xy": [
+          25.057981491088867,
+          35.53002166748047
+        ],
+        "drop_before_m": 0.7154128551483154,
+        "drop_after_m": 2.017023801803589
+      },
+      {
+        "edge": [
+          26.293397903442383,
+          35.33992004394531,
+          -1.7333462238311768
+        ],
+        "sample_xy": [
+          26.145174026489258,
+          35.022857666015625
+        ],
+        "drop_before_m": 0.6603095531463623,
+        "drop_after_m": 1.7908599376678467
+      },
+      {
+        "edge": [
+          27.380149841308594,
+          34.831031799316406,
+          -1.8545987606048584
+        ],
+        "sample_xy": [
+          27.22412872314453,
+          34.517730712890625
+        ],
+        "drop_before_m": 0.6297476291656494,
+        "drop_after_m": 0.8261282444000244
+      },
+      {
+        "edge": [
+          27.96588706970215,
+          33.86540222167969,
+          -1.944378137588501
+        ],
+        "sample_xy": [
+          27.616409301757812,
+          33.88450622558594
+        ],
+        "drop_before_m": 0.41265273094177246,
+        "drop_after_m": 0.5010278224945068
+      },
+      {
+        "edge": [
+          15.516149520874023,
+          30.693675994873047,
+          -3.2796378135681152
+        ],
+        "sample_xy": [
+          15.34568977355957,
+          30.999361038208008
+        ],
+        "drop_before_m": 0.655519962310791,
+        "drop_after_m": 1.58768892288208
+      },
+      {
+        "edge": [
+          14.593005180358887,
+          29.93691635131836,
+          -3.340226411819458
+        ],
+        "sample_xy": [
+          14.326693534851074,
+          30.164024353027344
+        ],
+        "drop_before_m": 0.7431724071502686,
+        "drop_after_m": 2.0686824321746826
+      },
+      {
+        "edge": [
+          13.991267204284668,
+          28.906036376953125,
+          -3.4168057441711426
+        ],
+        "sample_xy": [
+          13.662501335144043,
+          29.026090621948242
+        ],
+        "drop_before_m": 0.7151179313659668,
+        "drop_after_m": 1.7589964866638184
+      },
+      {
+        "edge": [
+          13.786270141601562,
+          27.730138778686523,
+          -3.499785900115967
+        ],
+        "sample_xy": [
+          13.436274528503418,
+          27.728296279907227
+        ],
+        "drop_before_m": 0.7327046394348145,
+        "drop_after_m": 1.7855591773986816
+      },
+      {
+        "edge": [
+          14.003681182861328,
+          26.556472778320312,
+          -3.5787758827209473
+        ],
+        "sample_xy": [
+          13.676202774047852,
+          26.432950973510742
+        ],
+        "drop_before_m": 0.7341742515563965,
+        "drop_after_m": 1.9226641654968262
+      },
+      {
+        "edge": [
+          14.616278648376465,
+          25.532007217407227,
+          -3.6438839435577393
+        ],
+        "sample_xy": [
+          14.352384567260742,
+          25.302095413208008
+        ],
+        "drop_before_m": 0.6828296184539795,
+        "drop_after_m": 2.0496413707733154
+      },
+      {
+        "edge": [
+          15.547369956970215,
+          24.785045623779297,
+          -3.6869564056396484
+        ],
+        "sample_xy": [
+          15.38015365600586,
+          24.47757339477539
+        ],
+        "drop_before_m": 0.6887588500976562,
+        "drop_after_m": 1.9297027587890625
+      },
+      {
+        "edge": [
+          16.632104873657227,
+          24.272125244140625,
+          -3.7159252166748047
+        ],
+        "sample_xy": [
+          16.48418617248535,
+          23.954917907714844
+        ],
+        "drop_before_m": 0.5614070892333984,
+        "drop_after_m": 1.6026039123535156
+      },
+      {
+        "edge": [
+          17.71967315673828,
+          23.764982223510742,
+          -3.7737350463867188
+        ],
+        "sample_xy": [
+          17.57175636291504,
+          23.44777488708496
+        ],
+        "drop_before_m": 0.42702484130859375,
+        "drop_after_m": 1.3897151947021484
+      },
+      {
+        "edge": [
+          18.80724334716797,
+          23.257841110229492,
+          -3.8989744186401367
+        ],
+        "sample_xy": [
+          18.659326553344727,
+          22.94063377380371
+        ],
+        "drop_before_m": 0.3124685287475586,
+        "drop_after_m": 1.828639030456543
+      },
+      {
+        "edge": [
+          19.894811630249023,
+          22.75069808959961,
+          -4.089725494384766
+        ],
+        "sample_xy": [
+          19.74689292907715,
+          22.43349266052246
+        ],
+        "drop_before_m": 0.38881492614746094,
+        "drop_after_m": 1.7415599822998047
+      },
+      {
+        "edge": [
+          20.98238182067871,
+          22.24355697631836,
+          -4.301027297973633
+        ],
+        "sample_xy": [
+          20.834468841552734,
+          21.926347732543945
+        ],
+        "drop_before_m": 0.33472251892089844,
+        "drop_after_m": 1.6220970153808594
+      },
+      {
+        "edge": [
+          22.069950103759766,
+          21.73641586303711,
+          -4.512620449066162
+        ],
+        "sample_xy": [
+          21.922033309936523,
+          21.419208526611328
+        ],
+        "drop_before_m": 0.2866654396057129,
+        "drop_after_m": 1.7738041877746582
+      },
+      {
+        "edge": [
+          23.157520294189453,
+          21.229272842407227,
+          -4.724212646484375
+        ],
+        "sample_xy": [
+          23.009605407714844,
+          20.912063598632812
+        ],
+        "drop_before_m": 0.4054679870605469,
+        "drop_after_m": 1.7664642333984375
+      },
+      {
+        "edge": [
+          24.245088577270508,
+          20.722131729125977,
+          -4.935804843902588
+        ],
+        "sample_xy": [
+          24.097171783447266,
+          20.404924392700195
+        ],
+        "drop_before_m": 0.3655219078063965,
+        "drop_after_m": 1.7881731986999512
+      },
+      {
+        "edge": [
+          25.332658767700195,
+          20.214990615844727,
+          -5.147397518157959
+        ],
+        "sample_xy": [
+          25.184741973876953,
+          19.897783279418945
+        ],
+        "drop_before_m": 0.3120865821838379,
+        "drop_after_m": 1.76798677444458
+      },
+      {
+        "edge": [
+          26.42022705078125,
+          19.707847595214844,
+          -5.358989715576172
+        ],
+        "sample_xy": [
+          26.27231216430664,
+          19.390640258789062
+        ],
+        "drop_before_m": 0.35010337829589844,
+        "drop_after_m": 1.7358875274658203
+      },
+      {
+        "edge": [
+          27.507797241210938,
+          19.200706481933594,
+          -5.570581912994385
+        ],
+        "sample_xy": [
+          27.359880447387695,
+          18.883499145507812
+        ],
+        "drop_before_m": 0.3837599754333496,
+        "drop_after_m": 1.5010790824890137
+      },
+      {
+        "edge": [
+          28.595367431640625,
+          18.693565368652344,
+          -5.782174110412598
+        ],
+        "sample_xy": [
+          28.447452545166016,
+          18.37635612487793
+        ],
+        "drop_before_m": 0.26871204376220703,
+        "drop_after_m": 1.8105440139770508
+      },
+      {
+        "edge": [
+          29.682933807373047,
+          18.186420440673828,
+          -5.993766784667969
+        ],
+        "sample_xy": [
+          29.535015106201172,
+          17.869213104248047
+        ],
+        "drop_before_m": 0.4476127624511719,
+        "drop_after_m": 1.380685806274414
+      }
+    ],
+    "beamng_runtime_tested": false,
+    "purpose": "Static driving-obstacle test, not a calibrated real-road safety model"
+  },
+  "collision_by_asset": {
+    "main_road": "Visible Mesh Final",
+    "small_road": "Visible Mesh Final",
+    "terrain": "Visible Mesh Final",
+    "drainage": "Visible Mesh Final",
+    "roadside_rocks": "Visible Mesh Final",
+    "guardrails_visual": "None",
+    "guardrails_collision": "Visible Mesh Final",
+    "vegetation": "None",
+    "concrete_joints": "None",
+    "earth_sides": "None"
+  },
+  "collision_note": "Exact low-poly rock surfaces; simplified solid rail/post proxies; raw road and earth triangle surfaces; no grass/joint/presentation collisions.",
+  "physics_note": "Dry concrete coefficients are uncalibrated trial baseline, not real-world driving validation.",
+  "excluded_reference_car": true,
+  "spawn_support_raycast": [
+    [
+      5.0,
+      43.25,
+      0.0
+    ],
+    [
+      5.0,
+      44.25,
+      0.0
+    ],
+    [
+      5.0,
+      45.25,
+      0.0
+    ],
+    [
+      7.5,
+      43.25,
+      0.0
+    ],
+    [
+      7.5,
+      44.25,
+      0.0
+    ],
+    [
+      7.5,
+      45.25,
+      0.0
+    ],
+    [
+      10.0,
+      43.25,
+      0.0
+    ],
+    [
+      10.0,
+      44.25,
+      0.0
+    ],
+    [
+      10.0,
+      45.25,
+      0.0
+    ]
+  ]
+}
