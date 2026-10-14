@@ -1,0 +1,10 @@
+{
+  "main_road_z_m": 0,
+  "main_mesh_height_error_m": 1.52587890625e-05,
+  "downhill_start_station_m": 4.732403166304997,
+  "entry_transition_length_m": 6.0,
+  "downstream_angle_deg": 10,
+  "end_z_m": -8.874049978576059,
+  "outer_drop_m": 3,
+  "inner_radius_m": 1.0
+}

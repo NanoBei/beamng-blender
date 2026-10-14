@@ -1,0 +1,94 @@
+{
+  "earth_sides.dae": {
+    "instances": 1,
+    "triangles": 8,
+    "bounds_min": [
+      -3.0,
+      12.0,
+      -25.0
+    ],
+    "bounds_max": [
+      47.0,
+      49.0,
+      -3.0
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "guardrails.dae": {
+    "instances": 20,
+    "triangles": 4184,
+    "bounds_min": [
+      -0.03750000149011612,
+      41.54999923706055,
+      -0.8293429613113403
+    ],
+    "bounds_max": [
+      44.037498474121094,
+      41.650001525878906,
+      0.9100000262260437
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "road.dae": {
+    "instances": 1,
+    "triangles": 21158,
+    "bounds_min": [
+      0.0,
+      17.927278518676758,
+      -8.901800155639648
+    ],
+    "bounds_max": [
+      44.0,
+      46.0,
+      0.0
+    ],
+    "parsed_by": "pycollada 0.9.3",
+    "min_upward_normal_z": 0.006181630771607161
+  },
+  "terrain.dae": {
+    "instances": 1,
+    "triangles": 27038,
+    "bounds_min": [
+      -3.0,
+      12.0,
+      -12.886043548583984
+    ],
+    "bounds_max": [
+      47.0,
+      49.0,
+      0.2366504669189453
+    ],
+    "parsed_by": "pycollada 0.9.3"
+  },
+  "terrain_texture": {
+    "size": [
+      2048,
+      2048
+    ],
+    "rgb_min": [
+      0,
+      0,
+      0
+    ],
+    "rgb_max": [
+      149,
+      134,
+      95
+    ]
+  },
+  "archive_files": [
+    "levels/tight_hairpin_test/README_zh.txt",
+    "levels/tight_hairpin_test/art/shapes/earth_sides.dae",
+    "levels/tight_hairpin_test/art/shapes/guardrails.dae",
+    "levels/tight_hairpin_test/art/shapes/road.dae",
+    "levels/tight_hairpin_test/art/shapes/terrain.dae",
+    "levels/tight_hairpin_test/art/textures/terrain.color.png",
+    "levels/tight_hairpin_test/info.json",
+    "levels/tight_hairpin_test/main/items.level.json",
+    "levels/tight_hairpin_test/main.materials.json",
+    "levels/tight_hairpin_test/preview.jpg"
+  ],
+  "zip_bytes": 2710658,
+  "sha256": "f6e7a5c98b75391f81bbe6ca823cd18305e2aa61bcf7e87e9667e000e99e1f2f",
+  "beamng_runtime_tested": false
+}

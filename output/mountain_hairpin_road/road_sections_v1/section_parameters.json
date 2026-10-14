@@ -1,0 +1,166 @@
+{
+  "status": "proposed_unconfirmed",
+  "source_plan": "V5 approved curvature only",
+  "unit": "m",
+  "datum": "P0 relative elevation = 0",
+  "length_m": 50.05964147618232,
+  "total_drop_m": 4,
+  "profile_interpolation": "linear gradient, integrated analytically; continuous elevation and grade",
+  "profile_breakpoints": [
+    {
+      "station_m": 0,
+      "z_m": 0.0,
+      "grade_percent": 0.0
+    },
+    {
+      "station_m": 4,
+      "z_m": -0.20382825362114868,
+      "grade_percent": -10.191412681057434
+    },
+    {
+      "station_m": 18,
+      "z_m": -1.6306260289691894,
+      "grade_percent": -10.191412681057434
+    },
+    {
+      "station_m": 20,
+      "z_m": -1.7778353232511301,
+      "grade_percent": -4.529516747136637
+    },
+    {
+      "station_m": 25.02982073809116,
+      "z_m": -2.0056618959339207,
+      "grade_percent": -4.529516747136637
+    },
+    {
+      "station_m": 27.02982073809116,
+      "z_m": -2.1528711902158615,
+      "grade_percent": -10.191412681057434
+    },
+    {
+      "station_m": 35.02982073809116,
+      "z_m": -2.968184204700456,
+      "grade_percent": -10.191412681057434
+    },
+    {
+      "station_m": 37.02982073809116,
+      "z_m": -3.115393498982397,
+      "grade_percent": -4.529516747136637
+    },
+    {
+      "station_m": 42.05964147618232,
+      "z_m": -3.3432200716651876,
+      "grade_percent": -4.529516747136637
+    },
+    {
+      "station_m": 44.05964147618232,
+      "z_m": -3.4904293659471284,
+      "grade_percent": -10.191412681057434
+    },
+    {
+      "station_m": 48.05964147618232,
+      "z_m": -3.8980858731894257,
+      "grade_percent": -10.191412681057434
+    },
+    {
+      "station_m": 50.05964147618232,
+      "z_m": -4.0,
+      "grade_percent": 0.0
+    }
+  ],
+  "key_points": [
+    {
+      "id": "P0",
+      "s": 0.0,
+      "x": 11.0,
+      "y": 44.0,
+      "z": 0.0
+    },
+    {
+      "id": "P1",
+      "s": 20.0,
+      "x": 29.126155740732997,
+      "y": 35.54763476518601,
+      "z": -1.7778353232511301
+    },
+    {
+      "id": "P2",
+      "s": 25.02982073809116,
+      "x": 28.63132769863638,
+      "y": 31.789042629338905,
+      "z": -2.0056618959339207
+    },
+    {
+      "id": "P3",
+      "s": 37.02982073809116,
+      "x": 16.813634662489882,
+      "y": 29.70526449733574,
+      "z": -3.115393498982397
+    },
+    {
+      "id": "P4",
+      "s": 42.05964147618232,
+      "x": 16.318806620393264,
+      "y": 25.946672361488634,
+      "z": -3.3432200716651876
+    },
+    {
+      "id": "P5",
+      "s": 50.05964147618232,
+      "x": 23.569268916686465,
+      "y": 22.56572626756304,
+      "z": -4.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "A-A",
+      "label": "普通直线路段",
+      "s": 12.0,
+      "berm_side": -1,
+      "x": 21.875693444439797,
+      "y": 38.928580859111605,
+      "z": -1.0191412681057435,
+      "heading": -25.0,
+      "grade": -0.10191412681057434
+    },
+    {
+      "id": "B-B",
+      "label": "C1 弯道出口侧",
+      "s": 23.77236555356837,
+      "berm_side": 1,
+      "x": 29.72190032011712,
+      "y": 32.371965840083405,
+      "z": -1.9487052527632232,
+      "heading": -133.75000000000006,
+      "grade": -0.045295167471366374
+    },
+    {
+      "id": "C-C",
+      "label": "C2 弯道中部",
+      "s": 39.54473110713674,
+      "berm_side": -1,
+      "x": 15.188263753622458,
+      "y": 28.007379895261327,
+      "z": -3.229306785323792,
+      "heading": -97.49999999999997,
+      "grade": -0.045295167471366374
+    }
+  ],
+  "crossfall_percent": 2,
+  "berm_height_above_adjacent_edge_m": 1.5,
+  "berm_slope_V_to_H": [
+    1,
+    1.5
+  ],
+  "drop_below_adjacent_edge_m": 3,
+  "drop_slope_V_to_H": [
+    1,
+    0.5
+  ],
+  "notes": [
+    "All elevation, longitudinal grade, crossfall and terrain heights are suggestions awaiting user confirmation.",
+    "Crossfall transitions between left and right drainage directions are not yet designed.",
+    "35-degree hairpin opening and 0.60 m inner radius from approved V5 retained; vehicle swept path remains unverified."
+  ]
+}

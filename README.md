@@ -6,10 +6,10 @@
 
 ## 下载
 
-- [下载地图 ZIP（约 2.7 MB）](https://github.com/NanoBei/beamng-blender/raw/refs/heads/main/output/beamng_hairpin_test_v1/tight_hairpin_test_v1.zip)
-- [Windows 中文导入说明](output/beamng_hairpin_test_v1/Windows导入说明.txt)
+- [下载地图 ZIP（约 2.7 MB）](https://github.com/NanoBei/beamng-blender/raw/refs/heads/main/output/mountain_hairpin_road/beamng_hairpin_test_v1/tight_hairpin_test_v1.zip)
+- [Windows 中文导入说明](output/mountain_hairpin_road/beamng_hairpin_test_v1/Windows导入说明.txt)
 
-![Blender 模型预览，非 BeamNG 游戏截图](output/beamng_hairpin_test_v1/package/levels/tight_hairpin_test/preview.jpg)
+![Blender 模型预览，非 BeamNG 游戏截图](output/mountain_hairpin_road/beamng_hairpin_test_v1/package/levels/tight_hairpin_test/preview.jpg)
 
 ## 安装
 
@@ -46,4 +46,4 @@
 f6e7a5c98b75391f81bbe6ca823cd18305e2aa61bcf7e87e9667e000e99e1f2f
 ```
 
-`output/road_plan_v5_tight35/` 保存早期确认的平面图；游戏包以其后调整的 Blender V9 模型为准。
+`output/mountain_hairpin_road/` 收纳本道路项目的模型、确认版平面图、断面图和 BeamNG 测试包。后续模型可在 `output/` 下各自建立项目文件夹。

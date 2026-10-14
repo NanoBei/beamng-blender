@@ -1,0 +1,212 @@
+{
+  "source_blend": "/Users/macmini/work/active/beamng-blender/output/blender_trial_v9_flat_main/road_trial_v9_flat_main.blend",
+  "units": "meters",
+  "up_axis": "Z_UP",
+  "collision_mode": "Visible Mesh Final (intentional exact surface for small test map)",
+  "beamng_runtime_tested": false,
+  "assets": {
+    "road": [
+      {
+        "object": "Road_Surface_4m_and_2.775m",
+        "vertices": 11788,
+        "triangles": 21158,
+        "degenerate_removed": 0
+      }
+    ],
+    "terrain": [
+      {
+        "object": "Terrain_Berms_and_Unguarded_Drops",
+        "vertices": 14730,
+        "triangles": 27038,
+        "degenerate_removed": 0
+      }
+    ],
+    "earth_sides": [
+      {
+        "object": "Terrain_Block_Sides",
+        "vertices": 16,
+        "triangles": 8,
+        "degenerate_removed": 0
+      }
+    ],
+    "guardrails": [
+      {
+        "object": "Main_Guardrail_Beam_1",
+        "vertices": 136,
+        "triangles": 268,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Main_Guardrail_Beam_2",
+        "vertices": 268,
+        "triangles": 532,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_1_0",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_1_1",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_1_2",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_1_3",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_1_4",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_1_5",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_0",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_1",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_10",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_11",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_2",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_3",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_4",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_5",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_6",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_7",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_8",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      },
+      {
+        "object": "Rail_Post_2_9",
+        "vertices": 96,
+        "triangles": 188,
+        "degenerate_removed": 0
+      }
+    ]
+  },
+  "spawn_support_raycast": [
+    [
+      4.5,
+      43.05,
+      -9.5367431640625e-07
+    ],
+    [
+      4.5,
+      44,
+      9.5367431640625e-07
+    ],
+    [
+      4.5,
+      44.95,
+      -9.5367431640625e-07
+    ],
+    [
+      7,
+      43.05,
+      9.5367431640625e-07
+    ],
+    [
+      7,
+      44,
+      9.5367431640625e-07
+    ],
+    [
+      7,
+      44.95,
+      9.5367431640625e-07
+    ],
+    [
+      9.5,
+      43.05,
+      9.5367431640625e-07
+    ],
+    [
+      9.5,
+      44,
+      9.5367431640625e-07
+    ],
+    [
+      9.5,
+      44.95,
+      9.5367431640625e-07
+    ]
+  ],
+  "source_parameters": {
+    "main_road_z_m": 0,
+    "main_mesh_height_error_m": 1.52587890625e-05,
+    "downhill_start_station_m": 4.732403166304997,
+    "entry_transition_length_m": 6.0,
+    "downstream_angle_deg": 10,
+    "end_z_m": -8.874049978576059,
+    "outer_drop_m": 3,
+    "inner_radius_m": 1.0
+  }
+}
