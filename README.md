@@ -8,7 +8,9 @@
 
 ## 当前版本
 
-当前试调为 [V15：小路宽 2.85 m](output/mountain_hairpin_road/blender_trial_v15_width_285/README.md)，包含 C63 发卡弯同角度俯视图；另有[小路直段居中俯视图](output/mountain_hairpin_road/c63_straight_preview_285/README.md)。**现有 BeamNG V2 仍使用 2.7705 m 旧宽度，本轮未重新打包。**
+当前最新为 [V16：护栏、悬崖坎与排水渠](output/mountain_hairpin_road/blender_trial_v16_roadside_layout/README.md)，按用户三处标注更新小路路侧。
+
+上一版宽度试调为 [V15：小路宽 2.85 m](output/mountain_hairpin_road/blender_trial_v15_width_285/README.md)，包含 C63 发卡弯同角度俯视图；另有[小路直段居中俯视图](output/mountain_hairpin_road/c63_straight_preview_285/README.md)。**现有 BeamNG V2 仍使用 2.7705 m 旧宽度，本轮未重新打包。**
 
 上一版为 [Blender V14：用户提供的 C63 参考车](output/mountain_hairpin_road/blender_trial_v14_c63_reference/README.md)，道路环境沿用 [V12](output/mountain_hairpin_road/blender_trial_v12_driving_edges/README.md)，对应 [BeamNG 驾驶测试包 V2](output/mountain_hairpin_road/beamng_hairpin_test_v2/README.md)。V13/V14 仅替换展示车辆，地图包无需重新生成。
 
@@ -21,7 +23,7 @@
 | 大路 | 4.5 m、水平、无中心线灰色柏油 |
 | 小路 | V15 试调 2.85 m 旧水泥路面，弯内局部补角 |
 | 坡度 | 直路约 10°；两弯平均约 3°、轻微内倾，各 5 m 接坡 |
-| 土坡侧 | 略高土坎、43 块闭合裸石，石头高出路缘约 23–40 cm |
+| 路侧 | V16：中间直段一侧波形护栏、另一侧无防护陡坎；上方/C1 土坡侧先接 0.5 m × 0.6 m 排水渠 |
 | 悬崖侧 | 无防护陡降路缘，无挡坎和护栏 |
 | 大路设施 | 靠小路侧波形钢护栏；另一侧净宽 0.5 m、深 0.6 m 排水渠 |
 | 参考车 | 用户提供的 C63，校正为 4.756 × 1.839 × 1.426 m、轴距 2.840 m、含后视镜宽 2.020 m；不作为游戏车辆导出 |
@@ -30,6 +32,7 @@
 
 - [V2 测试 ZIP（约 4.7 MB）](output/mountain_hairpin_road/beamng_hairpin_test_v2/tight_hairpin_drive_v2.zip)
 - [Windows 导入与试车说明](output/mountain_hairpin_road/beamng_hairpin_test_v2/Windows导入与试车说明.txt)
+- [Blender V16 场景（本地）](output/mountain_hairpin_road/blender_trial_v16_roadside_layout/road_trial_v16_roadside_layout.blend)
 - [Blender V15 场景（本地）](output/mountain_hairpin_road/blender_trial_v15_width_285/road_trial_v15_width_285.blend)
 - [Blender V14 场景（本地）](output/mountain_hairpin_road/blender_trial_v14_c63_reference/road_trial_v14_c63_reference.blend)
 - [独立 C63 参考车（本地）](output/mountain_hairpin_road/blender_trial_v14_c63_reference/mercedes_amg_c63_reference.blend)
@@ -48,4 +51,4 @@ C63 源素材页面标示个人使用许可；原始模型及衍生 `.blend` 已
 
 旧 [V1 地图包](output/mountain_hairpin_road/beamng_hairpin_test_v1/) 对应 Blender V9：大路 4 m、小路 2.775 m，尚无后续弯道缓坡和路缘石块。V2 使用独立地图目录，可区分版本；建议停用旧包以免选错。
 
-此前公开的 V1 下载：[GitHub ZIP](https://github.com/NanoBei/beamng-blender/raw/refs/heads/main/output/mountain_hairpin_road/beamng_hairpin_test_v1/tight_hairpin_test_v1.zip)。本次提交归档 V10–V15 的可公开文件及 V2 测试包；C63 原始与衍生 Blender 文件仅本地保存。
+此前公开的 V1 下载：[GitHub ZIP](https://github.com/NanoBei/beamng-blender/raw/refs/heads/main/output/mountain_hairpin_road/beamng_hairpin_test_v1/tight_hairpin_test_v1.zip)。仓库归档 V10–V16 的可公开文件及 V2 测试包；C63 原始与衍生 Blender 文件仅本地保存。

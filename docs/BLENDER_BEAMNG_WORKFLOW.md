@@ -4,7 +4,9 @@
 
 ## 当前项目位置
 
-- 最新试调为 [V15 小路 2.85 m](../output/mountain_hairpin_road/blender_trial_v15_width_285/README.md)。两侧各扩 0.03975 m，路缘土坡与石块同步；C63 保持 C1 弯顶向内借位 0.5 m 的静态位置。原 V14 大路停车版保留。**BeamNG V2 仍为 2.7705 m，未打包本次变化**，导出时需改源文件及小路对象名为 `Road_Surface_Small_Concrete_2p85m`。
+- 当前最新为 [V16 路侧布局](../output/mountain_hairpin_road/blender_trial_v16_roadside_layout/README.md)：两弯之间的西北侧加约 10.5 m 护栏；东南侧改为约 3 m 试拟无防护陡坎；上方进弯路段/C1 外侧加净宽 0.5 m、深 0.6 m 排水渠后再接土坡。V15 2.85 m 铺装几何及 C63 直路摆位未变。BeamNG V2 未更新，未来需新护栏碰撞代理并导出沟渠/新地形。
+
+- 上一版宽度试调为 [V15 小路 2.85 m](../output/mountain_hairpin_road/blender_trial_v15_width_285/README.md)。两侧各扩 0.03975 m，路缘土坡与石块同步；C63 保持 C1 弯顶向内借位 0.5 m 的静态位置。原 V14 大路停车版保留。**BeamNG V2 仍为 2.7705 m，未打包本次变化**，导出时需改源文件及小路对象名为 `Road_Surface_Small_Concrete_2p85m`。
 
 - 上一版 Blender 场景入口为 [V14 用户提供的 C63](../output/mountain_hairpin_road/blender_trial_v14_c63_reference/README.md)，上一版为 [V13 A4L](../output/mountain_hairpin_road/blender_trial_v13_a4l_reference/README.md)。V13/V14 仅更换参考车，V12 道路环境与 BeamNG V2 包保持有效；地图导出器继续使用 V12。另有独立车模可用于其他场地。
 - 当前最新为 [V12 驾驶练习路缘](../output/mountain_hairpin_road/blender_trial_v12_driving_edges/README.md) 和配套 [BeamNG V2 测试包](../output/mountain_hairpin_road/beamng_hairpin_test_v2/README.md)：灰色路面、上坡侧土坎/裸石碰撞、无防护悬崖路缘。V12/V2 取代下列 V11/V1 作为当前继续开发的入口，旧版保留作比较。

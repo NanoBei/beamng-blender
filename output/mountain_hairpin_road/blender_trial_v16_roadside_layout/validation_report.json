@@ -1,0 +1,81 @@
+{
+  "source": "V15 straight C63 preview",
+  "road_width_m": 2.85,
+  "paved_geometry_unchanged": true,
+  "car_pose_unchanged": true,
+  "guardrail_side": "C1-C2 middle straight inner / northwest side",
+  "guardrail_length_m": 10.5,
+  "guardrail_posts": 7,
+  "cliff_side": "C1-C2 middle straight opposite / southeast side",
+  "cliff_trial_drop_m": 3,
+  "cliff_checks": [
+    {
+      "along_middle_m": 2,
+      "drop_at_0p4m_from_edge_m": 2.7264957427978516
+    },
+    {
+      "along_middle_m": 4,
+      "drop_at_0p4m_from_edge_m": 2.7611732482910156
+    },
+    {
+      "along_middle_m": 6,
+      "drop_at_0p4m_from_edge_m": 2.7863903045654297
+    },
+    {
+      "along_middle_m": 8,
+      "drop_at_0p4m_from_edge_m": 2.8150806427001953
+    },
+    {
+      "along_middle_m": 10,
+      "drop_at_0p4m_from_edge_m": 2.803346633911133
+    }
+  ],
+  "terrain_vertices_lowered": 969,
+  "drain_side": "upper approach and outer C1 bank",
+  "drain_clear_width_m": 0.5,
+  "drain_depth_m": 0.6,
+  "drain_depth_ray_checks": [
+    0.6000003814697266,
+    0.6000003814697266,
+    0.6000003814697266,
+    0.6000022888183594,
+    0.6000003814697266
+  ],
+  "removed_rocks": [
+    "Roadside_Rock_01",
+    "Roadside_Rock_02",
+    "Roadside_Rock_03",
+    "Roadside_Rock_04",
+    "Roadside_Rock_05",
+    "Roadside_Rock_06",
+    "Roadside_Rock_07",
+    "Roadside_Rock_08",
+    "Roadside_Rock_20",
+    "Roadside_Rock_21",
+    "Roadside_Rock_22",
+    "Roadside_Rock_23",
+    "Roadside_Rock_24",
+    "Roadside_Rock_25",
+    "Roadside_Rock_26",
+    "Roadside_Rock_27",
+    "Roadside_Rock_28",
+    "Roadside_Rock_29",
+    "Roadside_Rock_30"
+  ],
+  "relocated_rocks": [
+    "Roadside_Rock_31",
+    "Roadside_Rock_32",
+    "Roadside_Rock_33",
+    "Roadside_Rock_34",
+    "Roadside_Rock_35",
+    "Roadside_Rock_36",
+    "Roadside_Rock_37",
+    "Roadside_Rock_38",
+    "Roadside_Rock_39",
+    "Roadside_Rock_40",
+    "Roadside_Rock_41",
+    "Roadside_Rock_42",
+    "Roadside_Rock_43"
+  ],
+  "beamng_updated": false
+}

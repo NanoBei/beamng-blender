@@ -4,9 +4,11 @@
 
 ## 成果
 
+- [`blender_trial_v16_roadside_layout/`](blender_trial_v16_roadside_layout/)：最新路侧调整，按用户 1/2/3 标注添加小路护栏、无防护陡坎及排水渠；小路仍宽 2.85 m，C63 保持直段中央。新增斜俯视和俯视预览，BeamNG 包尚未同步。
+
 - [`c63_straight_preview_285/`](c63_straight_preview_285/)：用户确认的 C63 直段居中俯视图，道路沿用 V15 的 2.85 m 宽度。
 
-- [`blender_trial_v15_width_285/`](blender_trial_v15_width_285/)：当前试调，小路直段加宽至 2.85 m，两弯补角及入口渐变保留，土坡/石块随路缘调整。C63 保持 C1 弯顶摆位，附同角度俯视图。BeamNG V2 尚未更新此宽度。
+- [`blender_trial_v15_width_285/`](blender_trial_v15_width_285/)：上一版宽度试调，小路直段加宽至 2.85 m，两弯补角及入口渐变保留，土坡/石块随路缘调整。C63 保持 C1 弯顶摆位，附同角度俯视图。BeamNG V2 尚未更新此宽度。
 
 - [`blender_trial_v14_c63_reference/`](blender_trial_v14_c63_reference/)：上一版 Blender 场景，换用用户提供的 Mercedes-AMG C63 车模，按 W205 三厢车型校正长宽高、含镜宽度及轴距，仍停在大路；保留全部道路环境。素材为个人使用许可，原始和衍生车模 `.blend` 仅本地保存。
 - [`blender_trial_v13_a4l_reference/`](blender_trial_v13_a4l_reference/)：上一版参考车，原尺寸方块车替换为自行制作的 A4L 简化外观参考车，增加四环中网、灯组、轮拱、车窗、门把手及后视镜。仍停在大路上；另有可复用独立车模。保留 V12 全部道路环境，不是可驾驶车辆。
