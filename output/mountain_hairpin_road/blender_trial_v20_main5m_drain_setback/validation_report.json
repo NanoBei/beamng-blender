@@ -1,0 +1,42 @@
+{
+  "main_paved_width_m": 5.0,
+  "small_paved_width_m": 3.0,
+  "main_drain_excluded_from_width": true,
+  "setbacks": [
+    {
+      "drain": "V16",
+      "endpoint_station_m": 18.0,
+      "distance_from_curve_m": 2.0,
+      "side": "before_C1_entry",
+      "remaining_length_m": 6.0,
+      "clear_width_min_m": 0.5000015995767051,
+      "clear_width_max_m": 0.5000015995767051,
+      "depth_m": 0.5999999801877519,
+      "fill_and_open_trench_ray_checks": true
+    },
+    {
+      "drain": "V17",
+      "endpoint_station_m": 46.05964147618232,
+      "distance_from_curve_m": 4.0,
+      "side": "after_C2_exit",
+      "remaining_length_m": 11.850000000000001,
+      "clear_width_min_m": 0.49999987093177123,
+      "clear_width_max_m": 0.49999987093177123,
+      "depth_m": 0.5999999046325684,
+      "fill_and_open_trench_ray_checks": true
+    }
+  ],
+  "beamng_updated": false,
+  "small_road_geometry_unchanged": true,
+  "small_car_pose_unchanged": true,
+  "guardrails_unchanged": true,
+  "main_elevation_m": 0.0,
+  "two_cars": {
+    "body_width_m": 1.839,
+    "mirror_width_m": 2.02,
+    "total_body_clearance_m": 1.322,
+    "total_mirror_clearance_m": 0.96,
+    "centre_mirror_gap_m": 0.48,
+    "each_outer_mirror_gap_m": 0.24
+  }
+}

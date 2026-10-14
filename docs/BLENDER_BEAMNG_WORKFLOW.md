@@ -4,7 +4,17 @@
 
 ## 当前项目位置
 
-- 当前最新为 [V16 路侧布局](../output/mountain_hairpin_road/blender_trial_v16_roadside_layout/README.md)：两弯之间的西北侧加约 10.5 m 护栏；东南侧改为约 3 m 试拟无防护陡坎；上方进弯路段/C1 外侧加净宽 0.5 m、深 0.6 m 排水渠后再接土坡。V15 2.85 m 铺装几何及 C63 直路摆位未变。BeamNG V2 未更新，未来需新护栏碰撞代理并导出沟渠/新地形。
+- 当前 BeamNG 包为 [V3](../output/mountain_hairpin_road/beamng_hairpin_test_v3/README.md)，以 V20 为源，包含最新设施与填平路肩；10 个 DAE，24 个裸石，小路护栏新增 9 个闭合简化碰撞代理。独立读回检查文件、道路宽度、沟渠/路肩、悬崖、碰撞位置。游戏在另一台 Windows 上，尚未实际加载/驾驶验证。
+
+- 当前最新为 [V20 大路 5 米及沟渠退让](../output/mountain_hairpin_road/blender_trial_v20_main5m_drain_setback/README.md)：净铺装 Y=42–47 m，外侧渠和土坡外移 0.5 m。小路保持 3 m；上方渠在 C1 入弯前 2 m 结束，撤去绕弯段；下方渠从 C2 出弯后 4 m 开始，撤去部分填土衔接。退让距离为试拟值。小路高程、护栏及参考车摆位保持。主路新对象名为 `Road_Surface_Main_Asphalt_5m`；已同步 BeamNG V3，V2 保留旧版。
+
+- 上一版为 [V19 小路 3 米与双车比例](../output/mountain_hairpin_road/blender_trial_v19_width_3m/README.md)：小路两侧各扩 0.075 m，设施与土坡同步外移，渠净宽仍为 0.5 m。大路实测 Y=42–46.5 m，净铺装 4.5 m，不含排水渠。双 C63 含镜静态总余量 0.46 m，尚未验证动态会车。原小路车姿态、V18 护栏长度与路面高程保持。未来导出使用 `Road_Surface_Small_Concrete_3m`，更新路侧设施/碰撞代理，并排除全部参考车集合；现有 BeamNG V2 未同步。
+
+- 上一版为 [V18 收短护栏](../output/mountain_hairpin_road/blender_trial_v18_short_guardrail/README.md)：C1 出弯端收回两段共约 3.5 m，保留约 7 m/5 根立柱，端板移至新起点（C1 出弯后约 4.25 m）。V17 两条排水渠、2.85 m 铺装及 C63 摆位保留；尚未做转弯轨迹验证。
+
+- 上一版为 [V17 下方直路排水渠](../output/mountain_hairpin_road/blender_trial_v17_lower_drain/README.md)：在 C2 出弯后的东北/土坡侧新增约 13.85 m 排水渠，净宽 0.5 m、深 0.6 m，渠外再接土坡和石块。V16 护栏、上方渠、2.85 m 铺装和 C63 直路摆位保留。BeamNG V2 未同步。
+
+- 上一版为 [V16 路侧布局](../output/mountain_hairpin_road/blender_trial_v16_roadside_layout/README.md)：两弯之间的西北侧加约 10.5 m 护栏；东南侧改为约 3 m 试拟无防护陡坎；上方进弯路段/C1 外侧加净宽 0.5 m、深 0.6 m 排水渠后再接土坡。V15 2.85 m 铺装几何及 C63 直路摆位未变。BeamNG V2 未更新，未来需新护栏碰撞代理并导出沟渠/新地形。
 
 - 上一版宽度试调为 [V15 小路 2.85 m](../output/mountain_hairpin_road/blender_trial_v15_width_285/README.md)。两侧各扩 0.03975 m，路缘土坡与石块同步；C63 保持 C1 弯顶向内借位 0.5 m 的静态位置。原 V14 大路停车版保留。**BeamNG V2 仍为 2.7705 m，未打包本次变化**，导出时需改源文件及小路对象名为 `Road_Surface_Small_Concrete_2p85m`。
 
@@ -31,8 +41,8 @@
 
 这些参数只约束发卡弯项目，不能直接套到科目二地图：
 
-- 用户最新指定大路宽 4.5 m、标高 0，整段水平；无中心线、柏油表面。V9/V10 历史宽度为 4 m。
-- 当前 V15 小路标准直段为 2.85 m；此前 V11–V14 按中国 Audi A4L 车身宽 1.847 m 的 1.5 倍，直线名义宽 2.7705 m，水泥表面；V9/V10 为 2.775 m。该宽度来自用户估计，不是实测。弯内补角和入口喇叭口仍保留。
+- 用户最新指定 V20 大路净宽 5.0 m（不含排水渠）、标高 0，整段水平；无中心线、柏油表面。V11–V19 为 4.5 m；V9/V10 历史宽度为 4 m。
+- 当前 V19 小路标准直段为 3.00 m；V15–V18 为 2.85 m；此前 V11–V14 按中国 Audi A4L 车身宽 1.847 m 的 1.5 倍，直线名义宽 2.7705 m，水泥表面；V9/V10 为 2.775 m。该宽度来自用户估计，不是实测。弯内补角和入口喇叭口仍保留。
 - 参考车按 A4L 长 4.858 m、宽 1.847 m（不含后视镜）、高 1.439 m、轴距 2.908 m，默认置于大路；只是静态尺度参考，不代表已完成车辆通过性仿真。
 - V13 用户明确选择“先替换 Blender 参考车，外形像 A4L／A6L、尺寸准确即可”。检索后自行建立简化 A4L，未使用下载网格或贴图。实际几何核对长宽高和轴距；后视镜约 2.068 m 总宽为外观试拟值。不要把它写成官方 CAD、精确曲面或可驾驶 BeamNG 模组。第三方车辆以后若需进入公开仓库，应先记录来源、许可和修改范围。
 - V14 用户提供 `98-mercedes-amg-c63.rar`，换为该文件内的 C63 三厢模型。校正为 4.756 × 1.839 × 1.426 m、轴距 2.840 m、含镜宽 2.020 m，仍放大路；**没有按 C63 重新更改小路宽度**。源作者 wishingchain，Free3D 页面为个人使用许可，V14 `.gitignore` 排除源文件和衍生 `.blend`，不要误传到公开仓库。网格有旧轮胎驱动，导入静态道路前冻结评估结果；保留车身/镜壳宽度区别，不能把总宽压成车身宽。尺寸边界已核验，但轮距、胎宽、悬架、转向未做实车物理校准。
@@ -45,7 +55,10 @@
 
 ## BeamNG 静态地图导出要点
 
-当前执行脚本为 [`beamng_hairpin_test_v2/export_map.py`](../output/mountain_hairpin_road/beamng_hairpin_test_v2/export_map.py)，输入 V12 场景；旧 V1 导出器不兼容新版对象列表。V2 关卡 ID 为 `tight_hairpin_drive_v2`。
+- V3 实际经验：`hide_viewport=True` 的护栏代理在后台加载后可能保留单位世界矩阵，尽管 `location` 有值。导出前取消隐藏并 `view_layer.update()`，用世界坐标写 DAE，再独立核对碰撞体是否位于护栏处。旧 V2 缺少此检查，优先使用已修复的 V3。
+- 布尔挖沟后地形可能有空材质槽，烘焙前将空槽补为土材质。新增渠外土坡、填土路肩、端头也要导出，不只导出主体地形。沟渠读回应分别检查槽底、地形是否遮挡、撤渠位置是否有齐平支撑。
+
+当前执行脚本为 [`beamng_hairpin_test_v3/export_map.py`](../output/mountain_hairpin_road/beamng_hairpin_test_v3/export_map.py)，输入 V20 场景，关卡 ID 为 `tight_hairpin_drive_v3`。V2 对应 V12，V1 对应 V9，旧对象列表不兼容当前模型。
 
 BeamNG 官方流程说明和本项目经验如下。BeamNG 文档会随版本更新，开始新地图时应重读链接中的当前说明。
 

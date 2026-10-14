@@ -1,0 +1,170 @@
+{
+  "target_width_m": 3.0,
+  "previous_width_m": 2.85,
+  "each_side_increase_m": 0.07499999999999996,
+  "measured_straight_sections": [
+    {
+      "station_m": 12.0,
+      "width_m": 3.0000149607658386
+    },
+    {
+      "station_m": 15.0,
+      "width_m": 2.9999991059303284
+    },
+    {
+      "station_m": 30.02982073809116,
+      "width_m": 2.9999977350234985
+    },
+    {
+      "station_m": 32.02982073809116,
+      "width_m": 2.999999701976776
+    },
+    {
+      "station_m": 47.05964147618232,
+      "width_m": 2.9999981224536896
+    },
+    {
+      "station_m": 53.05964147618232,
+      "width_m": 2.9999981224536896
+    }
+  ],
+  "both_hairpin_sides_offset": true,
+  "main_road_unchanged": true,
+  "road_vertex_elevations_unchanged": true,
+  "shared_road_terrain_vertices_verified": 1811,
+  "road_triangle_flips": 0,
+  "rock_vertices_intruding_on_pavement": [],
+  "car_pose_unchanged": true,
+  "changed_objects": [
+    "Terrain_Berms_and_Unguarded_Drops",
+    "Road_Surface_Small_Concrete_2p85m",
+    "Concrete_Visual_Joint_s9.00",
+    "Concrete_Visual_Joint_s12.00",
+    "Concrete_Visual_Joint_s15.00",
+    "Concrete_Visual_Joint_s18.00",
+    "Concrete_Visual_Joint_s28.03",
+    "Concrete_Visual_Joint_s31.03",
+    "Concrete_Visual_Joint_s34.03",
+    "Concrete_Visual_Joint_s45.06",
+    "Concrete_Visual_Joint_s48.06",
+    "Concrete_Visual_Joint_s51.06",
+    "Concrete_Visual_Joint_s54.06",
+    "Sparse_Grass_Clumps",
+    "Roadside_Rock_09",
+    "Roadside_Rock_10",
+    "Roadside_Rock_11",
+    "Roadside_Rock_12",
+    "Roadside_Rock_13",
+    "Roadside_Rock_14",
+    "Roadside_Rock_15",
+    "Roadside_Rock_16",
+    "Roadside_Rock_17",
+    "Roadside_Rock_18",
+    "Roadside_Rock_19",
+    "Roadside_Rock_31",
+    "Roadside_Rock_32",
+    "Roadside_Rock_33",
+    "Roadside_Rock_34",
+    "Roadside_Rock_35",
+    "Roadside_Rock_36",
+    "Roadside_Rock_37",
+    "Roadside_Rock_38",
+    "Roadside_Rock_39",
+    "Roadside_Rock_40",
+    "Roadside_Rock_41",
+    "Roadside_Rock_42",
+    "Roadside_Rock_43",
+    "V16_Small_Road_U_Drain_Clear_0p50_Deep_0p60",
+    "V16_Drain_Outer_Soil_Bank",
+    "V16_Drain_End_Earth_0",
+    "V16_Drain_End_Earth_150",
+    "V16_Small_WBeam_3",
+    "V16_Small_WBeam_4",
+    "V16_Small_WBeam_5",
+    "V16_Small_WBeam_6",
+    "V16_Small_Rail_Post_3",
+    "V16_Small_Rail_Spacer_3",
+    "V16_Small_Rail_Bolt.004",
+    "V16_Small_Rail_Bolt.005",
+    "V16_Small_Rail_Post_4",
+    "V16_Small_Rail_Spacer_4",
+    "V16_Small_Rail_Bolt.006",
+    "V16_Small_Rail_Bolt.007",
+    "V16_Small_Rail_Post_5",
+    "V16_Small_Rail_Spacer_5",
+    "V16_Small_Rail_Bolt.008",
+    "V16_Small_Rail_Bolt.009",
+    "V16_Small_Rail_Post_6",
+    "V16_Small_Rail_Spacer_6",
+    "V16_Small_Rail_Bolt.010",
+    "V16_Small_Rail_Bolt.011",
+    "V16_Small_Rail_Post_7",
+    "V16_Small_Rail_Spacer_7",
+    "V16_Small_Rail_Bolt.012",
+    "V16_Small_Rail_Bolt.013",
+    "V16_Small_Rail_End",
+    "V16_Small_Rail_End.001",
+    "V17_Small_Road_U_Drain_Clear_0p50_Deep_0p60",
+    "V17_Drain_Outer_Soil_Bank",
+    "V17_Drain_End_Earth_0",
+    "V17_Drain_End_Earth_150"
+  ],
+  "beamng_package_updated": false,
+  "small_drain_checks": [
+    {
+      "name": "V16_Small_Road_U_Drain_Clear_0p50_Deep_0p60",
+      "clear_width_min_m": 0.4999962870941476,
+      "clear_width_max_m": 0.5000044323809553,
+      "depth_m": 0.5999999401585155
+    },
+    {
+      "name": "V17_Small_Road_U_Drain_Clear_0p50_Deep_0p60",
+      "clear_width_min_m": 0.49999814228813694,
+      "clear_width_max_m": 0.49999987093177123,
+      "depth_m": 0.5999999046325684
+    }
+  ],
+  "main_pavement_y_edges_m": [
+    42.0,
+    46.5
+  ],
+  "main_drain_y_extent_m": [
+    46.5,
+    47.2400016784668
+  ],
+  "main_paved_width_excludes_drain_m": 4.5,
+  "two_cars_clearance": {
+    "body_width_m": 1.839,
+    "including_mirrors_m": 2.02,
+    "total_body_gap_m": 0.8220000000000001,
+    "total_mirror_gap_m": 0.45999999999999996,
+    "mirror_centre_gap_m": 0.22999999999999998,
+    "mirror_edge_gap_each_m": 0.11499999999999999
+  },
+  "two_car_measured_world_bounds": [
+    {
+      "min": [
+        5.121999979019165,
+        42.11500000953674,
+        0.0
+      ],
+      "max": [
+        9.878000020980835,
+        44.13499999046326,
+        1.4259999990463257
+      ]
+    },
+    {
+      "min": [
+        5.121999979019165,
+        44.36499997145059,
+        0.0
+      ],
+      "max": [
+        9.878000055576859,
+        46.3849999523771,
+        1.4259999990463257
+      ]
+    }
+  ]
+}

@@ -4,7 +4,17 @@
 
 ## 成果
 
-- [`blender_trial_v16_roadside_layout/`](blender_trial_v16_roadside_layout/)：最新路侧调整，按用户 1/2/3 标注添加小路护栏、无防护陡坎及排水渠；小路仍宽 2.85 m，C63 保持直段中央。新增斜俯视和俯视预览，BeamNG 包尚未同步。
+- [`beamng_hairpin_test_v3/`](beamng_hairpin_test_v3/)：当前 BeamNG 导入包，对应 V20，含 5 m/3 m 道路、最新沟渠/填平路肩、收短小路护栏碰撞和悬崖地形。修复旧隐藏主路碰撞体导出位置，已离线读回检查，未在 Windows 游戏内验证。
+
+- [`blender_trial_v20_main5m_drain_setback/`](blender_trial_v20_main5m_drain_setback/)：当前模型，大路净铺装 5 m；小路 3 m 不变，上方渠退至 C1 入弯前 2 m，下方渠退至 C2 出弯后 4 m，撤去沟渠处填平接土坡。附大路双车、整体和排水渠俯视图。已同步至 BeamNG V3。
+
+- [`blender_trial_v19_width_3m/`](blender_trial_v19_width_3m/)：上一版，小路加宽至 3 m，路侧设施同步外移；核实大路铺装净宽 4.5 m、不含排水渠，新增双 C63 俯视比例图。BeamNG 包未同步。
+
+- [`blender_trial_v18_short_guardrail/`](blender_trial_v18_short_guardrail/)：上一版，C1 出弯端护栏收回 3.5 m，保留约 7 m 和 5 根立柱，端板同步收回。其余 V17 模型与车辆摆位保持。
+
+- [`blender_trial_v17_lower_drain/`](blender_trial_v17_lower_drain/)：上一版，在用户箭头所指的 C2 出弯后下方直路土坡侧追加净宽 0.5 m、深 0.6 m 排水渠，石块移到渠外；保留 V16 其他布局。
+
+- [`blender_trial_v16_roadside_layout/`](blender_trial_v16_roadside_layout/)：上一版路侧调整，按用户 1/2/3 标注添加小路护栏、无防护陡坎及排水渠；小路仍宽 2.85 m，C63 保持直段中央。新增斜俯视和俯视预览，BeamNG 包尚未同步。
 
 - [`c63_straight_preview_285/`](c63_straight_preview_285/)：用户确认的 C63 直段居中俯视图，道路沿用 V15 的 2.85 m 宽度。
 
@@ -26,4 +36,4 @@
 
 ## 当前限制
 
-BeamNG ZIP V2 对应 V12–V14 相同的道路环境，V13/V14 只替换不导出的参考车；旧 V1 仍对应 V9。二者均未在 BeamNG.drive 实际加载和驾驶验证。新版完成离线格式、网格、石块碰撞与铺装净空、路缘落差检查；车辆是否跳动、蹭底、撞石或坠落，仍需在 Windows 游戏内确认。Blender A4L/C63 均仅是静态外观与尺寸参考车。
+BeamNG ZIP V3 对应 V20；V2 对应 V12–V14 相同的道路环境，V13/V14 只替换不导出的参考车；旧 V1 仍对应 V9。二者均未在 BeamNG.drive 实际加载和驾驶验证。新版完成离线格式、网格、石块碰撞与铺装净空、路缘落差检查；车辆是否跳动、蹭底、撞石或坠落，仍需在 Windows 游戏内确认。Blender A4L/C63 均仅是静态外观与尺寸参考车。

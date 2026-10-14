@@ -1,0 +1,35 @@
+{
+  "source": "V17",
+  "shortened_at": "C1 upper-hairpin end only",
+  "retreated_length_m": 3.5,
+  "previous_guardrail_length_m": 10.5,
+  "new_guardrail_length_m": 7.0,
+  "new_start_after_C1_m": 4.25,
+  "old_cap_position": [
+    27.5849666595459,
+    33.404170989990234,
+    -1.2877328395843506
+  ],
+  "new_cap_position": [
+    24.164949417114258,
+    32.64435577392578,
+    -1.7297017574310303
+  ],
+  "remaining_posts": 5,
+  "removed_objects": [
+    "V16_Small_WBeam_1",
+    "V16_Small_WBeam_2",
+    "V16_Small_Rail_Post_1",
+    "V16_Small_Rail_Post_2",
+    "V16_Small_Rail_Spacer_1",
+    "V16_Small_Rail_Spacer_2",
+    "V16_Small_Rail_Bolt",
+    "V16_Small_Rail_Bolt.001",
+    "V16_Small_Rail_Bolt.002",
+    "V16_Small_Rail_Bolt.003"
+  ],
+  "other_mesh_objects_unchanged": 128,
+  "car_pose_unchanged": true,
+  "beamng_updated": false,
+  "turning_path_verified": false
+}
