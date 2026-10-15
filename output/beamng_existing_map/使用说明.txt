@@ -1,0 +1,32 @@
+已导入 Gridmap V2：双发卡弯道路组件
+
+实际安装到当前用户目录 C:\Users\yangc\AppData\Local\BeamNG\BeamNG.drive\current
+模型组件：art/hairpin_road/
+场景新增文件：levels/gridmap_v2/main/MissionGroup/codex_hairpin/items.level.json
+地图材质文件：levels/gridmap_v2/art/codex_hairpin/main.materials.json
+
+模型整体位置：(-170, -150, 114)。当前使用 wide20 加宽版。
+大路实测宽度 4.00 米；三段直坡实测宽度 3.33 米（原 2.775 米，增加 20%）。
+弯道同步加宽，原有内侧补角区域平滑过渡，不保证所有内角局部横截面恰好增加 20%。
+保留原中心线和顶点高度，两侧地形与护栏入口同步调整。
+通过导出网格横截面及游戏内碰撞射线两种方法核验宽度；未发现新增翻折三角形。
+入口车辆位置：(-163, -106, 114.5)，朝 +X。
+为容纳近 13 米的地形高差，模型作为独立高台试验区放在原地图上。
+道路端点尚未与 Gridmap 原道路连接。
+
+现在可以直接试车。未来进入 Gridmap V2 后，要回到入口，可在 GE Lua 控制台执行：
+dofile('/art/hairpin_road/load.lua')
+此命令不会重复生成已有组件；会将当前车辆移到道路入口并复原车辆。
+运行 import/load 命令不需要每次启动 MCP。
+
+已验证：游戏内 Prefab 加载、四个模型的 XML、材质显示、多个点的路面碰撞、当前车辆在入口静止时的高度与速度。
+未验证：完整驾驶通过两个发卡弯、重新启动游戏后场景自动加载。
+原独立地图模组 tight_hairpin_test_v1 已通过游戏模组管理器停用，ZIP 仍保留。
+
+移除方法：先退出地图；仅移除上述专用目录 art/hairpin_road、
+levels/gridmap_v2/main/MissionGroup/codex_hairpin、levels/gridmap_v2/art/codex_hairpin。
+不要删除整个 gridmap_v2 或 art 文件夹。
+没有修改 Steam 安装目录的地图文件。
+
+加宽版源文件：widen_slopes.py；检查脚本：verify_widths.py、verify_live_widths.lua。
+原始 DAE 文件仍保留；before_wide20.prefab.json 保存加宽前的组件引用，可用于回退。

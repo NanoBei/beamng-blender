@@ -1,0 +1,49 @@
+{
+  "connected_grid_concrete": {
+    "name": "connected_grid_concrete",
+    "class": "Material",
+    "mapTo": "connected_grid_concrete",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorMap": "/levels/gridmap_v2/art/terrains/t_concrete_gm_b.png",
+        "normalMap": "/levels/gridmap_v2/art/terrains/t_concrete_gm_nm.png",
+        "roughnessMap": "/levels/gridmap_v2/art/terrains/t_concrete_gm_r.png",
+        "roughnessFactor": 1,
+        "metallicFactor": 0
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ASPHALT",
+    "useAnisotropic": true
+  },
+  "connected_earth": {
+    "name": "connected_earth",
+    "class": "Material",
+    "mapTo": "connected_earth",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.32,
+          0.3,
+          0.22,
+          1
+        ],
+        "roughnessFactor": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "DIRT"
+  }
+}

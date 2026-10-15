@@ -1,0 +1,280 @@
+{
+  "route": "between_sites",
+  "externalForce": false,
+  "initial_damage": {
+    "id": 64115,
+    "damageSum": 0
+  },
+  "records": [
+    {
+      "elapsed": 8.0,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 3.8567388902275,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1456.8277587891,
+          "x": -1619.4539794922,
+          "z": 101.2992477417
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 18,
+      "route_nodes": 422,
+      "distance_to_node": 0.3998289554687298
+    },
+    {
+      "elapsed": 16.0,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 3.334519923352,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1472.2816162109,
+          "x": -1600.4639892578,
+          "z": 102.07408905029
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 76,
+      "route_nodes": 422,
+      "distance_to_node": 0.5510377338635101
+    },
+    {
+      "elapsed": 24.1,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 3.4863996497224,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1500.0849609375,
+          "x": -1600.2784423828,
+          "z": 102.82836151123
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 132,
+      "route_nodes": 422,
+      "distance_to_node": 0.35578613892275496
+    },
+    {
+      "elapsed": 32.1,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 3.4798274492894,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1516.8621826172,
+          "x": -1581.9072265625,
+          "z": 103.5931854248
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 188,
+      "route_nodes": 422,
+      "distance_to_node": 0.40225840224164566
+    },
+    {
+      "elapsed": 40.1,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 3.5028235176566,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1516.8812255859,
+          "x": -1553.7514648438,
+          "z": 104.35927581787
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 245,
+      "route_nodes": 422,
+      "distance_to_node": 0.4002517898904695
+    },
+    {
+      "elapsed": 48.2,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 3.5439875916861,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1510.8514404297,
+          "x": -1527.2624511719,
+          "z": 105.1164932251
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 301,
+      "route_nodes": 422,
+      "distance_to_node": 0.22564686195103414
+    },
+    {
+      "elapsed": 56.2,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 3.4814882110332,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1485.0938720703,
+          "x": -1524.8475341797,
+          "z": 105.87888336182
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 357,
+      "route_nodes": 422,
+      "distance_to_node": 0.22829289749927292
+    },
+    {
+      "elapsed": 64.2,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 3.5332604083924,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1470.8826904297,
+          "x": -1548.2734375,
+          "z": 108.01295471191
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 413,
+      "route_nodes": 422,
+      "distance_to_node": 0.4301652935504403
+    },
+    {
+      "elapsed": 72.2,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 0.00011509858879387,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1468.3734130859,
+          "x": -1553.6645507812,
+          "z": 109.05489349365
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 420,
+      "route_nodes": 422,
+      "distance_to_node": 0.41360855472378294
+    },
+    {
+      "elapsed": 80.2,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 0.002438959764274,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1468.3734130859,
+          "x": -1553.6646728516,
+          "z": 109.05494689941
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 420,
+      "route_nodes": 422,
+      "distance_to_node": 0.4136264630208415
+    },
+    {
+      "elapsed": 88.2,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 0.0027517320292686,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1468.3734130859,
+          "x": -1553.6645507812,
+          "z": 109.05484008789
+        },
+        "id": 64115,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 64115,
+        "damageSum": 0
+      },
+      "closest_node": 420,
+      "route_nodes": 422,
+      "distance_to_node": 0.41357672254178984
+    }
+  ],
+  "final": {
+    "name": "Audi A4 (B9, 2017)",
+    "speed": 0.0023181594834338,
+    "jbeam": "A4B9_AE",
+    "configKey": "TDI_2.0_122_FWD_DCT",
+    "position": {
+      "y": -1468.3735351562,
+      "x": -1553.6644287109,
+      "z": 109.05485534668
+    },
+    "id": 64115,
+    "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+  },
+  "final_damage": {
+    "id": 64115,
+    "damageSum": 0
+  }
+}

@@ -1,0 +1,38 @@
+乡村道路加宽 30%：连通版 V2
+日期：2026-10-15；目标游戏 BeamNG.drive 0.39.4.0，当前 Gridmap V2。
+
+尺寸与范围
+家乡小路标准直段：3.0 → 3.9 米，两侧各增加 0.45 米。
+家乡大路净铺装：5.0 → 6.5 米，保持小路交汇侧 Y=42，向外扩至 Y=48.5。
+加宽仅针对家乡山路；科目二场地与原地图入口小路维持此前布局。
+科目二至山路的连接段保持约 4 米，其末端渐变至 3.9 米，匹配加宽山路。
+沿用原游戏 Concrete 纹理。原路面顶点高程不变，地形、沟渠、石块、路肩与小路护栏同步外移；大路交汇侧护栏保持在固定路缘之外。
+两处弯道继续保留既有内侧补角和走向；入口喇叭口保留渐变，并非每处都固定为标准直段宽度。
+
+模型与构建
+这是从现有 BeamNG V3 DAE 导出的独立加宽派生版；未覆盖原 V20 Blender、原 ZIP 或连通版 V1。
+本机未找到 V20 .blend 文件，本次修改对象是游戏网格，不能将它误称为已另存完整 Blender V21 场景。
+widen.py：对原 DAE 路缘作偏移，加宽所有相关资产；弯道极短边使用平滑切线，内部位移平滑，避免三角面翻折。
+build.py：生成当前连通版的最终资源、Prefabs 和地图场景组。
+重建顺序：widen.py → build.py → make_mountain_probes.py → make_drive_routes.py。
+需要 numpy，并依赖此前 beamng_existing_map_v3/package 的原始 DAE 和仓库内的 beamng_io、road_profile 模块。
+package/art/codex_connected_v2_width130 为最终资源。
+场景组为 levels/gridmap_v2/main/MissionGroup/codex_connected_v2_width130。
+原未改动的科目二模型仍引用已安装的 /art/china_subject2_v1。
+原山路材质仍引用 /art/hometown_hairpin_v3/main.materials.json。
+
+检查记录
+width_validation.json：大路净宽 6.5 米，小路六处直段读回净宽均约 3.9 米，路面无翻折三角面。
+mountain_collision_checks.json：18,552 个路面碰撞采样，无失败、无高于路面的挡路碰撞。
+live_connection_checks.json：306 个连接路面采样全部通过。
+*_drive_result.json：单独 Audi A4 测试车的实际物理驾驶记录；没有使用外力拖行。
+测试路径包括大路新增铺装区域，以及小路末端加宽区域和连接段接缝；不代表两处发卡弯已完成全车型通过性测试。
+两项低速实车测试均完成，损伤值为 0；临时 Audi 测试车已移除，玩家 Ram TRX 的位置未改变。
+新版 Prefab 已从磁盘重新加载，20 个被场景引用的新网格与安装文件 SHA256 一致；已写入自动加载场景组。
+本次未重启整张地图，以保留玩家正在使用的车辆状态。
+
+恢复
+安装前场景根组备份在 backup/mission_before.level.json。
+退出地图后，将备份覆盖 BeamNG 用户目录 levels/gridmap_v2/main/MissionGroup/items.level.json，再打开 Gridmap V2，可恢复上版 5 米 / 3 米连通版。
+V1 资源与场景目录均保留，无需删除 V2。
+如后续另行编辑过场景根组，请先备份最新文件，避免恢复旧备份时覆盖其他编辑。

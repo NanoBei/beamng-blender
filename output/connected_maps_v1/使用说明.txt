@@ -1,0 +1,55 @@
+Gridmap V2 三地连通版 V1
+完成日期：2026-10-15；游戏版本：BeamNG.drive 0.39.4.0。
+
+结果
+原游戏地面 → 西侧小路 → 科目二场地 → 东侧连接道路 → 家乡山路末端。
+直接载入 Gridmap V2 即会自动加载。模型位于原地图西南方向；与原地图连接的是现有可驾驶地面，没有移动原地图中心道路设施。
+科目二采用远端 main 41b4bf7 的 V07 模型 / BeamNG V1；家乡山路采用 V20 模型对应 BeamNG V3 包。
+保留原 Blender、ZIP 和上一版独立导入资源，本版使用派生模型。
+
+道路
+西侧小路约 197 米，宽 3.5 米，入口加宽到 4.5 米，最大坡度约 4.28%。
+科目二至山路约 205.95 米，宽 4 米，在山路末端过渡到原来的 3 米；弯道半径 15/20 米。
+末端渐变至原山路 10° 坡面，最大坡度约 17.62%。新增接地路肩与土坡。
+科目二东侧增加开口，局部修剪围栏、路缘和标线；山路末端清除通道范围内挡路的土体、石块和植被。
+原山路主路 5 米、小路 3 米和原坡道几何保持不变。
+
+材质
+所有主要铺装道路及新增连接路使用 Gridmap V2 Concrete 的原始颜色、法线和粗糙度纹理。
+引用 /levels/gridmap_v2/art/terrains/t_concrete_gm_b.png、t_concrete_gm_nm.png、t_concrete_gm_r.png。
+网格使用 PBR Material；原游戏地形采用分层地形着色器，因此远景色调不会与地形每一处完全相同。
+物理 groundType 沿用原 Concrete 的 ASPHALT。没有修改用户已有摩擦设置。
+
+验证
+两段路合计 306 个面内碰撞采样全部通过，最大高差误差 0.783 毫米，无挡路碰撞。
+精确落在部分三角面共边的射线曾漏检，采用相邻面内采样复核，并补充实车验证。
+Audi A4 B9 2.0 TDI FWD DCT 以约 3.5 米/秒（12.6 公里/小时）实际行驶：
+1. 原地图地面驶经完整西侧连接路，到科目二西门；损伤值全程为 0。
+2. 科目二现有道路驶出东侧开口，经完整连接段，越过接缝进入原山路约 5 米；损伤值全程为 0。
+每项仅在起点重置位置；行驶使用游戏 Script AI，externalForce=false，不使用外力牵引。
+本次验证为低速单向试驾，未据此声称高速、大车、全部原有科目或山路全段已测试。
+完整地图重载后自动出现连接版；旧两组 Prefab 未重复加载，306 点再次全部通过。
+
+文件
+build.py：派生道路、局部开口及材质构建脚本；依赖 numpy 和此前 beamng_existing_map_v3/package 原资源。
+package：实际安装内容；仍引用已安装的 /art/china_subject2_v1 和 /art/hometown_hairpin_v3 未改动资源。
+load.lua：游戏 GE Lua 热加载连接版；正常重开 Gridmap 无需手动调用。
+goto_entry.lua：通过 MCP run_lua 执行本文件内容，可将玩家车辆停在西侧连接路面向科目二入口。
+check_live.ps1、collision_probes.json：运行中的地图碰撞检查。
+drive_check.py、*_drive_path.json、*_drive_result.json：真实物理试驾脚本、路径和记录。
+after_reload_checks.json：重载后的碰撞记录。
+audi_after_mountain_join.png：车辆完成山路接缝试驾的截图。
+overview_after_reload.png：最终重载后的全局截图。
+
+安装位置与恢复
+游戏用户目录：C:/Users/yangc/AppData/Local/BeamNG/BeamNG.drive/current
+本版资产：art/codex_connected_v1；场景组：levels/gridmap_v2/main/MissionGroup/codex_connected_v1。
+backup/mission_before.level.json 保存安装前的场景根组文件。
+要恢复到上一版两个独立模型：退出当前地图，将该备份复制覆盖用户目录 levels/gridmap_v2/main/MissionGroup/items.level.json，再重载 Gridmap V2。
+原独立模型的场景子目录和资源均保留，无需删除连接版资源。
+以后如另行编辑过场景根组，应先备份最新文件再选择性恢复，避免覆盖其他编辑。
+不要在连接版里运行旧版 goto_subject2.lua/goto_hometown.lua，它们会尝试加载旧 Prefab。
+
+原始包 SHA256（验证未改变）
+科目二：f467aa3afe41b885a9758500a5708311ba219ba917bc76c4545eccc27ceca7d3
+家乡山路：c368fef9508ffa8aba8a5b89ca79d82c998851ada262f5f1259d64dcfd7b51c4

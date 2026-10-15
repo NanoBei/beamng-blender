@@ -1,0 +1,29 @@
+双发卡弯追加填充 V4（2026-10-15）
+
+当前游戏已热加载 CodexConnectedV4InnerfillMore，并写入 Gridmap V2 的启动配置。
+两个内弯最深处均比 V3 再补 0.6 m，相对 V2 累计补 1.8 m；沿路缘前后各约 5 m 渐变衔接。
+每弯累计新增铺装约 3.606 m²，比 V3 再增约 1.202 m²。
+保留 6.5 m 大路、3.9 m 小路标准直段、原游戏混凝土材质及两个场地连接。
+临近新铺装的旧路面在约 1 m 范围内顺坡，最大高度调整 0.064 m；新路面最大局部坡度约 37.8%，不是水平平台。
+裁去新铺装下的旧地形，并将 C1 内侧护栏末端收短一跨，移除末端立柱及对应碰撞，避免占用新路面。
+原 Blender、V2、V3 均保留；这次只生成独立游戏 DAE 派生资源。
+
+检查：
+- 两处填充共 5960 个三角形中心的游戏内射线检查，5957 个直接命中预期路面。
+- 3 个极细渐变端部三角形受游戏浮点精度影响未直接命中，四向 2 mm 邻点复查最大高度误差 0.000183 m。
+- 最终没有检测到路面上方旧地形或护栏的碰撞遮挡。
+- inner_corners_after.png 为当前游戏实际截图。
+- 本次没有生成测试车，也没有执行车辆移动、重置、修复或驾驶命令；未做完整转弯驾驶验证。
+- 前后只读车辆快照显示车型和位置已改变，因此不将它们作为车辆状态保持不变的证据。
+
+重建顺序（Python、numpy，trim 使用 V3/.deps 中已有 shapely）：
+1. build.py
+2. trim_terrain.py
+3. clear_rail_end.py
+4. 将 package 内容复制到 BeamNG 用户目录 current，保留旧资源。
+5. 删除当前同名 V4 prefab 后执行 /art/codex_connected_v4_innerfill_more/load.lua，再运行 check_fill.py、recheck_endpoints.py。
+prepare_version.py 仅是本次从 V3 派生脚本的记录，不是日常重建入口。
+
+回退：
+将 backup/mission_before.level.json 恢复至用户目录 levels/gridmap_v2/main/MissionGroup/items.level.json，重新加载地图即可回到 V3。
+也可游戏内删除 CodexConnectedV4InnerfillMore，再执行 /art/codex_connected_v3_innerfill/load.lua 临时热切回 V3；仍需恢复上述配置以使下次加载保持 V3。

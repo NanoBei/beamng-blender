@@ -4,6 +4,12 @@
 
 ## 当前项目位置
 
+- 当前最新游戏派生版为 [`connected_maps_v4_innerfill_more`](../output/connected_maps_v4_innerfill_more/)：两内弯比 V3 再补 0.6 m，累计 1.8 m，C1 护栏末端同步收短。重建按 `build.py` → `trim_terrain.py` → `clear_rail_end.py`；游戏内已热加载并完成截图、路面碰撞射线检查，未进行本版完整转弯驾驶测试。V3 原样保留。
+
+- 最新游戏派生版为 [`connected_maps_v3_innerfill`](../output/connected_maps_v3_innerfill/)：在 V2 的 6.5 m / 3.9 m 基础上，仅为两个发卡弯增加内侧局部铺装及土体支撑。构建后必须运行该目录 `trim_terrain.py` 清除铺装下旧土体干涉；测试证据和限制见 `使用说明.txt`。V2 和源 Blender 均保留。
+
+- 2026-10-15 本机游戏版本已更新为 [`connected_maps_v2_width130`](../output/connected_maps_v2_width130/)：家乡大路 6.5 m、小路标准直段 3.9 m（用户要求分别加宽 30%）。路缘设施及与科目二的连接口同步调整，沿用 Gridmap V2 混凝土纹理。它是 V20 / BeamNG V3 的独立 DAE 派生版，原 Blender 文件未改；以下旧版 5 m / 3 m 及“未在 Windows 验证”的描述仅指各历史产物。当前版测试范围和记录以该目录 `使用说明.txt` 为准。
+
 - 当前 BeamNG 包为 [V3](../output/mountain_hairpin_road/beamng_hairpin_test_v3/README.md)，以 V20 为源，包含最新设施与填平路肩；10 个 DAE，24 个裸石，小路护栏新增 9 个闭合简化碰撞代理。独立读回检查文件、道路宽度、沟渠/路肩、悬崖、碰撞位置。游戏在另一台 Windows 上，尚未实际加载/驾驶验证。
 
 - 当前最新为 [V20 大路 5 米及沟渠退让](../output/mountain_hairpin_road/blender_trial_v20_main5m_drain_setback/README.md)：净铺装 Y=42–47 m，外侧渠和土坡外移 0.5 m。小路保持 3 m；上方渠在 C1 入弯前 2 m 结束，撤去绕弯段；下方渠从 C2 出弯后 4 m 开始，撤去部分填土衔接。退让距离为试拟值。小路高程、护栏及参考车摆位保持。主路新对象名为 `Road_Surface_Main_Asphalt_5m`；已同步 BeamNG V3，V2 保留旧版。

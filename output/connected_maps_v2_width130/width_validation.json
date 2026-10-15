@@ -1,0 +1,66 @@
+{
+  "main_width": 6.5,
+  "small_width": 3.9,
+  "small_each_side_added": 0.45,
+  "main_outer_side_added": 1.5,
+  "small_width_checks": [
+    {
+      "station": 12.0,
+      "width": 3.900014178303536
+    },
+    {
+      "station": 15.0,
+      "width": 3.8999982236127835
+    },
+    {
+      "station": 30.02982073809116,
+      "width": 3.8999985706759617
+    },
+    {
+      "station": 32.02982073809116,
+      "width": 3.9000005859998055
+    },
+    {
+      "station": 47.05964147618232,
+      "width": 3.8999983654066455
+    },
+    {
+      "station": 53.05964147618232,
+      "width": 3.8999984569090884
+    }
+  ],
+  "small_elevations_unchanged": true,
+  "small_flipped_triangles": 0,
+  "assets": {
+    "concrete_joints": {
+      "triangles": 22
+    },
+    "drainage": {
+      "triangles": 4844
+    },
+    "earth_sides": {
+      "triangles": 284
+    },
+    "guardrails_collision": {
+      "triangles": 952
+    },
+    "guardrails_visual": {
+      "triangles": 5860
+    },
+    "main_road": {
+      "triangles": 2
+    },
+    "roadside_rocks": {
+      "triangles": 1806
+    },
+    "small_road": {
+      "triangles": 18272
+    },
+    "terrain": {
+      "triangles": 28200
+    },
+    "vegetation": {
+      "triangles": 5965
+    }
+  }
+}

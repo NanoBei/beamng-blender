@@ -1,0 +1,38 @@
+[
+  {
+    "corner": 1,
+    "tip_before": [
+      27.39900587125202,
+      33.86397696155667,
+      -1.94974005
+    ],
+    "tip_after_xy": [
+      25.61462120864513,
+      34.100559665601786
+    ],
+    "maximum_fill_m": 1.8,
+    "added_plan_area_m2": 3.6059589593131163,
+    "max_grade": 0.3773629540790403,
+    "triangles": 2984
+  },
+  {
+    "corner": 2,
+    "tip_before": [
+      18.04644233417725,
+      27.633961900445765,
+      -3.55185175
+    ],
+    "tip_after_xy": [
+      19.83178063076621,
+      27.40468659271983
+    ],
+    "maximum_fill_m": 1.8,
+    "added_plan_area_m2": 3.6059132658631823,
+    "max_grade": 0.3776838037829351,
+    "triangles": 2976
+  },
+  {
+    "local_road_blend_width_m": 1.0,
+    "maximum_existing_road_height_adjustment_m": 0.06392029621584427
+  }
+]

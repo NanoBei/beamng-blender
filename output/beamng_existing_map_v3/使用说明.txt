@@ -1,0 +1,59 @@
+两张最终版已加入当前 Gridmap V2
+日期：2026-10-15；游戏：BeamNG.drive 0.39.4.0.20972。
+仓库更新到 41b4bf7。通过当前游戏的本地 MCP 完成加载、重载和检查。
+
+版本
+科目二：用户确认的 Blender V07，90×60 m 闭环场地；使用 BeamNG V1 导出包。
+家乡山路：Blender V20，5 m 大路、3 m 小路；使用 BeamNG V3 导出包。
+未修改上述源模型及 ZIP；当前地图适配文件独立保存在本目录。
+
+位置与进入方法
+两者同在 Gridmap V2 西南侧空旷区域，科目二在西、山路在东。
+科目二整体偏移 (-1700,-1500,101)，入口 (-1691,-1490,101)。
+山路整体偏移 (-1580,-1490,114)，入口 (-1572.5,-1445.5,114)。
+山路保留独立高台和原高差；两个场地之间没有新建连接道路。
+当前 Audi A4 已留在科目二入口，车辆稳定落地，可开始自行试车。
+
+以后进入 Gridmap V2，两处场地会自动加载。需要快速移动车辆时，
+可在游戏 GE Lua 控制台执行以下其中一条（会移动车辆并复原车辆）：
+科目二：dofile('/art/china_subject2_v1/goto.lua')
+家乡山路：dofile('/art/hometown_hairpin_v3/goto.lua')
+
+安装位置
+C:\Users\yangc\AppData\Local\BeamNG\BeamNG.drive\current
+art/china_subject2_v1/ 与 art/hometown_hairpin_v3/：资源、预制件和进入脚本。
+levels/gridmap_v2/art/codex_subject2_v1/ 与 codex_hometown_v3/：自动加载材质。
+levels/gridmap_v2/groundModels/codex_subject2_v1.json 与 codex_hometown_v3.json：专用干燥水泥地面类型。
+levels/gridmap_v2/main/MissionGroup/items.level.json：保留原 3840 字符场景条目，追加两组注册。
+同目录 codex_subject2_v1/ 与 codex_hometown_v3/：新增场景入口。
+未修改 Steam 安装目录。旧道路资源仍保留；旧入口已另存为 items.level.json.pre_v3_backup。
+backup/original_mission_items.level.json 保存添加前的主场景目录；backup/old_hairpin_items.level.json 保存旧道路入口。
+
+本次兼容调整
+科目二平面混凝土与沥青在 Collision Mesh 模式下，入口射线命中下方草地。
+两张零厚度平面路面改用 Visible Mesh Final，保留完全相同的最终版几何。
+坡道、路缘、围栏、树干等保留原独立 Collision Mesh。
+自动加载要求在 MissionGroup 中声明新增分组，不能只添加未注册的子文件夹。
+isRenderEnabled 的脚本读回值与实际渲染不一致，不能单凭 false 判定模型不可见。
+最终重载后的截图已确认两者均可见；进入脚本仍显式启用可见组件。
+
+已完成验证
+1. 两个源 ZIP 的 SHA-256 与各自离线报告一致。
+2. 游戏创建 32 个 TSStatic 实例，两种专用水泥地面类型均已加载。
+3. 从最终网格独立生成 204 个碰撞采样，覆盖两处道路、坡道、路缘、围栏、护栏、沟底和填平路肩。
+   203 点误差小于 2.5 cm；1 个极细沥青三角面点落到下方 3 cm 草地。
+   该三角面有约 0.0085 mm 的短边，坐标 (-1668.4910971,-1479.9849987)。
+   沿 Y 正负偏移 5 mm、20 mm 的四点均命中正确路面；保留原始差异记录，没有将它记作通过。
+4. 实际重新加载 Gridmap V2，确认自动加载、可见画面、材质、碰撞配置均保留。
+5. 原 Audi A4 配置保持，两处入口分别完成车辆落地与静止速度检查。
+6. overview_after_reload.png、hometown_vehicle.png、subject2_vehicle.png 是实际游戏截图。
+
+验证边界
+未驾驶跑完科目二闭环或家乡山路两个发卡弯，未做动态会车/悬架/刮底检查。
+没有新增考试自动评分。地面摩擦为原导出包的试拟值。
+完整退出并重新启动游戏未测试；已测试当前游戏内重新载入地图。
+
+回退
+先退出当前地图；按本说明列出的专用文件逐项回退，不要删除整个 Gridmap、art 或 groundModels 目录。
+如果之后未有其他场景改动，可用 backup/original_mission_items.level.json 恢复主场景目录。
+如果之后另有编辑，应只移除 codex_subject2_v1、codex_hometown_v3 两项分组，保留其他新增内容。

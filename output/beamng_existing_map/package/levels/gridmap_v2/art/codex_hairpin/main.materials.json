@@ -1,0 +1,134 @@
+{
+  "hp_asphalt": {
+    "name": "hp_asphalt",
+    "class": "Material",
+    "mapTo": "hp_asphalt",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.105,
+          0.12,
+          0.135,
+          1
+        ],
+        "roughnessFactor": 0.92,
+        "metallicFactor": 0
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": false,
+    "translucent": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "Road and Path",
+    "useAnisotropic": true
+  },
+  "hp_terrain_grass": {
+    "name": "hp_terrain_grass",
+    "class": "Material",
+    "mapTo": "hp_terrain_grass",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 0.96,
+        "metallicFactor": 0,
+        "baseColorMap": "/art/hairpin_road/textures/terrain.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": false,
+    "translucent": false,
+    "groundType": "GRASS",
+    "materialTag0": "Road and Path",
+    "useAnisotropic": true
+  },
+  "hp_terrain_soil": {
+    "name": "hp_terrain_soil",
+    "class": "Material",
+    "mapTo": "hp_terrain_soil",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 0.96,
+        "metallicFactor": 0,
+        "baseColorMap": "/art/hairpin_road/textures/terrain.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": false,
+    "translucent": false,
+    "groundType": "DIRT",
+    "materialTag0": "Road and Path",
+    "useAnisotropic": true
+  },
+  "hp_earth_side": {
+    "name": "hp_earth_side",
+    "class": "Material",
+    "mapTo": "hp_earth_side",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.25,
+          0.205,
+          0.16,
+          1
+        ],
+        "roughnessFactor": 1,
+        "metallicFactor": 0
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": false,
+    "translucent": false,
+    "groundType": "DIRT",
+    "materialTag0": "Road and Path",
+    "useAnisotropic": true
+  },
+  "hp_guardrail": {
+    "name": "hp_guardrail",
+    "class": "Material",
+    "mapTo": "hp_guardrail",
+    "version": 1.5,
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.45,
+          0.53,
+          0.57,
+          1
+        ],
+        "roughnessFactor": 0.4,
+        "metallicFactor": 0.65
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": false,
+    "translucent": false,
+    "groundType": "METAL",
+    "materialTag0": "Road and Path",
+    "useAnisotropic": true
+  }
+}

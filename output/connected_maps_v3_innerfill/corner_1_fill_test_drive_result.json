@@ -1,0 +1,96 @@
+{
+  "route": "corner_1_fill_test",
+  "externalForce": false,
+  "initial_damage": {
+    "id": 84002,
+    "damageSum": 18.741298675537
+  },
+  "records": [
+    {
+      "elapsed": 8.0,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 0.00035407115454144,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1455.9482421875,
+          "x": -1551.7327880859,
+          "z": 112.3236618042
+        },
+        "id": 84002,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 84002,
+        "damageSum": 0
+      },
+      "closest_node": 0,
+      "route_nodes": 13,
+      "distance_to_node": 1.4880643051635367
+    },
+    {
+      "elapsed": 16.0,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 0.00036744905128865,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1455.9483642578,
+          "x": -1551.7326660156,
+          "z": 112.32373046875
+        },
+        "id": 84002,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 84002,
+        "damageSum": 0
+      },
+      "closest_node": 0,
+      "route_nodes": 13,
+      "distance_to_node": 1.4881868898846626
+    },
+    {
+      "elapsed": 24.1,
+      "vehicle": {
+        "name": "Audi A4 (B9, 2017)",
+        "speed": 0.00052278700626541,
+        "jbeam": "A4B9_AE",
+        "configKey": "TDI_2.0_122_FWD_DCT",
+        "position": {
+          "y": -1455.9482421875,
+          "x": -1551.7327880859,
+          "z": 112.32368469238
+        },
+        "id": 84002,
+        "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+      },
+      "damage": {
+        "id": 84002,
+        "damageSum": 0
+      },
+      "closest_node": 0,
+      "route_nodes": 13,
+      "distance_to_node": 1.4880681383071432
+    }
+  ],
+  "final": {
+    "name": "Audi A4 (B9, 2017)",
+    "speed": 0.00032870055391526,
+    "jbeam": "A4B9_AE",
+    "configKey": "TDI_2.0_122_FWD_DCT",
+    "position": {
+      "y": -1455.9482421875,
+      "x": -1551.7327880859,
+      "z": 112.32369232178
+    },
+    "id": 84002,
+    "pcFile": "vehicles/A4B9_AE/TDI_2.0_122_FWD_DCT.pc"
+  },
+  "final_damage": {
+    "id": 84002,
+    "damageSum": 0
+  }
+}

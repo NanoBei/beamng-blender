@@ -1,0 +1,32 @@
+{
+  "road": {
+    "vertices": 11788,
+    "triangles": 21158,
+    "maxShiftM": 0.6566209917961743,
+    "flippedTriangles": 0
+  },
+  "terrain": {
+    "vertices": 14730,
+    "triangles": 27038,
+    "maxShiftM": 0.6989271566908958,
+    "flippedTriangles": 0
+  },
+  "earth_sides": {
+    "vertices": 16,
+    "triangles": 8,
+    "maxShiftM": 0.0,
+    "flippedTriangles": 0
+  },
+  "guardrails": {
+    "vertices": 136,
+    "triangles": 268,
+    "maxShiftM": 0.3406840362183909,
+    "flippedTriangles": 0
+  },
+  "straightSlopeWidthsM": [
+    3.330000000000006,
+    3.330000000000003,
+    3.330000000000006
+  ],
+  "mainRoadWidthM": 4
+}

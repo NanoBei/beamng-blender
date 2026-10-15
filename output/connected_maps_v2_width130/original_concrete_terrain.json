@@ -1,0 +1,69 @@
+{
+  "internalName": "Concrete",
+  "class": "TerrainMaterial",
+  "persistentId": "838e26b7-c3c4-478e-920f-e70c0269a049",
+  "annotation": "ASPHALT",
+  "aoBaseTex": "/levels/gridmap_v2/art/terrains/t_terrain_base_ao.png",
+  "aoBaseTexSize": 2048,
+  "aoDetailTex": "/levels/gridmap_v2/art/terrains/t_concrete_gm_ao.png",
+  "aoMacroTex": "/levels/gridmap_v2/art/terrains/t_macro_holes_ao.png",
+  "aoMacroTexSize": 40,
+  "baseColorBaseTex": "/levels/gridmap_v2/art/terrains/t_terrain_base_b.png",
+  "baseColorBaseTexSize": 2048,
+  "baseColorDetailStrength": [
+    0.25,
+    0.25
+  ],
+  "baseColorDetailTex": "/levels/gridmap_v2/art/terrains/t_concrete_gm_b.png",
+  "baseColorMacroStrength": [
+    0.100000001,
+    0.100000001
+  ],
+  "baseColorMacroTex": "/levels/gridmap_v2/art/terrains/t_macro_holes_b.png",
+  "baseColorMacroTexSize": 40,
+  "detailDistance": 25,
+  "detailSize": 2,
+  "detailStrength": 0.5,
+  "diffuseSize": 50,
+  "groundmodelName": "ASPHALT",
+  "heightBaseTex": "/levels/gridmap_v2/art/terrains/t_terrain_base_h.png",
+  "heightBaseTexSize": 2048,
+  "heightDetailTex": "/levels/gridmap_v2/art/terrains/t_concrete_gm_h.png",
+  "heightMacroTex": "/levels/gridmap_v2/art/terrains/t_macro_holes_h.png",
+  "heightMacroTexSize": 40,
+  "macroDistance": 1000,
+  "macroDistances": [
+    0,
+    10,
+    100,
+    3000
+  ],
+  "macroSize": 40,
+  "macroStrength": 0.5,
+  "normalBaseTex": "/levels/gridmap_v2/art/terrains/t_terrain_base_nm.png",
+  "normalBaseTexSize": 2048,
+  "normalDetailStrength": [
+    0.699999988,
+    0.150000006
+  ],
+  "normalDetailTex": "/levels/gridmap_v2/art/terrains/t_concrete_gm_nm.png",
+  "normalMacroStrength": [
+    0.100000001,
+    0.100000001
+  ],
+  "normalMacroTex": "/levels/gridmap_v2/art/terrains/t_macro_holes_nm.png",
+  "normalMacroTexSize": 40,
+  "roughnessBaseTex": "/levels/gridmap_v2/art/terrains/t_terrain_base_r.png",
+  "roughnessBaseTexSize": 2048,
+  "roughnessDetailStrength": [
+    0.600000024,
+    0.600000024
+  ],
+  "roughnessDetailTex": "/levels/gridmap_v2/art/terrains/t_concrete_gm_r.png",
+  "roughnessMacroStrength": [
+    0.150000006,
+    0.5
+  ],
+  "roughnessMacroTex": "/levels/gridmap_v2/art/terrains/t_macro_holes_r.png",
+  "roughnessMacroTexSize": 40
+}

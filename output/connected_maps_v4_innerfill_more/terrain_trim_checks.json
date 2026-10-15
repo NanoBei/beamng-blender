@@ -1,0 +1,10 @@
+{
+  "hairpin3_terrain": {
+    "affected": 2032,
+    "triangles": 28236
+  },
+  "hairpin3_earth_sides": {
+    "affected": 0,
+    "triangles": 284
+  }
+}

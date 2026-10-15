@@ -4,6 +4,12 @@
 
 ## 成果
 
+- 2026-10-15 最新追加填充版：[`../connected_maps_v4_innerfill_more/`](../connected_maps_v4_innerfill_more/)，两个内弯比 V3 各再补 0.6 m，最深处累计 1.8 m；C1 护栏末端收短一跨以让出新增路面。已热加载、截图及碰撞射线检查，本次未进行完整转弯驾驶验证。V3 保留，详见该目录 `使用说明.txt`。
+
+- 2026-10-15 内弯补宽更新：[`../connected_maps_v3_innerfill/`](../connected_maps_v3_innerfill/)，两个发卡弯内侧各补入约 1.2 m、增加约 2.4 m² 铺装，局部坡面衔接，裁去新路面下方旧土体干涉。大路 6.5 m / 小路直段 3.9 m 保留。实际测试范围及恢复步骤见该目录 `使用说明.txt`，未宣称完成两处整弯的车辆通过性验证。
+
+- 2026-10-15 当前游戏派生版：[`../connected_maps_v2_width130/`](../connected_maps_v2_width130/)，家乡大路净宽 **6.5 m**、小路标准直段 **3.9 m**，均比上一版增加 30%；保留与科目二、Gridmap V2 的连通和原游戏混凝土纹理。此版直接调整游戏 DAE，原 V20 Blender 和 BeamNG V3 ZIP 保留。检查记录及恢复步骤见该目录 `使用说明.txt`。
+
 - [`beamng_hairpin_test_v3/`](beamng_hairpin_test_v3/)：当前 BeamNG 导入包，对应 V20，含 5 m/3 m 道路、最新沟渠/填平路肩、收短小路护栏碰撞和悬崖地形。修复旧隐藏主路碰撞体导出位置，已离线读回检查，未在 Windows 游戏内验证。
 
 - [`blender_trial_v20_main5m_drain_setback/`](blender_trial_v20_main5m_drain_setback/)：当前模型，大路净铺装 5 m；小路 3 m 不变，上方渠退至 C1 入弯前 2 m，下方渠退至 C2 出弯后 4 m，撤去沟渠处填平接土坡。附大路双车、整体和排水渠俯视图。已同步至 BeamNG V3。

@@ -1,0 +1,119 @@
+{
+  "hairpin3_guardrails_visual": {
+    "total_parts": 79,
+    "removed_parts": [
+      {
+        "triangles": 44,
+        "bounds_min": [
+          24.068593,
+          33.0875499,
+          -1.7923055
+        ],
+        "bounds_max": [
+          24.1001638,
+          33.1150615,
+          -1.76444783
+        ]
+      },
+      {
+        "triangles": 44,
+        "bounds_min": [
+          24.068593,
+          33.0875499,
+          -1.61275353
+        ],
+        "bounds_max": [
+          24.1001638,
+          33.1150615,
+          -1.58498746
+        ]
+      },
+      {
+        "triangles": 12,
+        "bounds_min": [
+          24.0316516,
+          33.0847728,
+          -1.84563781
+        ],
+        "bounds_max": [
+          24.1159186,
+          33.2379863,
+          -1.53995945
+        ]
+      },
+      {
+        "triangles": 44,
+        "bounds_min": [
+          23.9747863,
+          33.2558429,
+          -2.71581606
+        ],
+        "bounds_max": [
+          24.114785,
+          33.3958423,
+          -1.62222982
+        ]
+      },
+      {
+        "triangles": 12,
+        "bounds_min": [
+          23.9625297,
+          33.1149929,
+          -1.77645869
+        ],
+        "bounds_max": [
+          24.1582993,
+          33.3594309,
+          -1.61344399
+        ]
+      },
+      {
+        "triangles": 1280,
+        "bounds_min": [
+          17.1711021,
+          31.8906944,
+          -2.69340992
+        ],
+        "bounds_max": [
+          24.0836174,
+          33.2125919,
+          -1.54084616
+        ],
+        "action": "Trim only final bay at local x=22.30; retain upstream beam"
+      }
+    ],
+    "removed_triangles": 1436
+  },
+  "hairpin3_guardrails_collision": {
+    "total_parts": 22,
+    "removed_parts": [
+      {
+        "triangles": 44,
+        "bounds_min": [
+          23.9747863,
+          33.2558429,
+          -2.71581606
+        ],
+        "bounds_max": [
+          24.114785,
+          33.3958423,
+          -1.62222982
+        ]
+      },
+      {
+        "triangles": 12,
+        "bounds_min": [
+          22.3135008,
+          32.7962978,
+          -2.18377408
+        ],
+        "bounds_max": [
+          24.1109252,
+          33.2210491,
+          -1.53962906
+        ]
+      }
+    ],
+    "removed_triangles": 56
+  }
+}
